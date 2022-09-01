@@ -1,6 +1,8 @@
-row_size = int(input("Enter the number of rows: "))
-col_size = int(input("Enter the number of columns: "))
-row_index = int(input("Enter row index: "))
-col_index = int(input("Enter column index: "))
+dim1_size = int(input("Enter dimension 1 length: "))
+dim2_size = int(input("Enter dimension 2 length: "))
+dim3_size = int(input("Enter dimension 3 length: "))
+dim1_index = int(input("Enter index for dimension 1: "))
+dim2_index = int(input("Enter index for dimension 2: "))
+dim3_index = int(input("Enter index for dimension 3: "))
 
-print(col_size * row_index + col_index)
+print(dim2_size * dim3_size * dim1_index + dim3_size * dim2_index + dim3_index)
