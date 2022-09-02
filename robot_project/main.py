@@ -1,6 +1,7 @@
 from random import choices
 
-from robot_project.robotfactory import RobotFactory
+from drinkfactory import DrinkFactory
+from robotfactory import RobotFactory
 
 
 def run_simulation(robot, destination):
@@ -24,11 +25,13 @@ def run_simulation(robot, destination):
 
 if __name__ == "__main__":
     grid_size = 10
-    destinations = [(0, 0), (0, 9), (9, 0), (9, 9)]
+    simulation_counter = 3
 
-    robot_count = 3
-    factory = RobotFactory(grid_size)
-    robots = factory.create_robots(robot_count)
+    robot_factory = RobotFactory(grid_size)
+    drink_factory = DrinkFactory(grid_size)
 
-    for index, destination in enumerate(choices(destinations, k=robot_count)):
-        run_simulation(robots[index], destination)
+    robots = robot_factory.create_robots(simulation_counter)
+    drinks = drink_factory.create_drinks(simulation_counter)
+
+    for [robot, drink] in zip(robots, drinks):
+        run_simulation(robot, drink[1])
