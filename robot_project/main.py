@@ -25,7 +25,7 @@ direction = randint(0, 3)
 clockwise_turning_table = {0: 3, 3: 1, 1: 2, 2: 0}
 
 
-def regulatePosition(value):
+def regulate_position(value):
     """Regulate robot position w.r.t to the grid size limit.
 
     Args:
@@ -43,7 +43,7 @@ def regulatePosition(value):
     return value
 
 
-def updateQuadrantIndex():
+def update_quadrant_Index():
     """Recalculate and update robot quadrant index value"""
     global quadrant_index
 
@@ -51,7 +51,7 @@ def updateQuadrantIndex():
     quadrant_index = (row_index > 4) * 2 + (col_index > 4)
 
 
-def printLocation():
+def print_location():
     """Print location information"""
     print(
         "My current location is ({}, {}), facing {}.".format(
@@ -68,33 +68,33 @@ def move():
         # branchless if statement numeric hack
         # if direction == 0, row_index -= 1, else row_index += 1
         prev_row_index = row_index
-        row_index = regulatePosition(row_index + (2 * direction - 1))
+        row_index = regulate_position(row_index + (2 * direction - 1))
     else:
         # branchless if statement numeric hack
         # if direction == 2, col_index -= 1, else col_index += 1
         prev_col_index = col_index
-        col_index = regulatePosition(col_index + (2 * direction - 5))
+        col_index = regulate_position(col_index + (2 * direction - 5))
 
     if prev_row_index == row_index and prev_col_index == col_index:
         print("I have a wall in front of me!")
         return False
     else:
-        updateQuadrantIndex()
+        update_quadrant_Index()
 
         print("Moving one step forward.")
-        printLocation()
+        print_location()
 
         return True
 
 
-def turnClockwise():
+def turn_clockwise():
     """Rotate robot clockwise by 90 degrees."""
     global direction
 
     direction = clockwise_turning_table[direction]
 
     print("Turning 90 degrees clockwise.")
-    printLocation()
+    print_location()
 
 
 name = input("What is the name of the robot? ")
@@ -103,17 +103,17 @@ name = input("What is the name of the robot? ")
 # direction_input = input("What is its initial direction [n|s|e|w]? ")
 
 # regulate input values
-# row_index = regulatePosition(row_index)
-# col_index = regulatePosition(col_index)
+# row_index = regulate_position(row_index)
+# col_index = regulate_position(col_index)
 
 # if direction_input in direction_indices:
 # direction = direction_indices[direction_input]
 
 # calculate quadrant
-updateQuadrantIndex()
+update_quadrant_Index()
 
 print("Hello. My name is {}. My ID is 1000.".format(name))
-printLocation()
+print_location()
 
 reached = False
 while True:
@@ -125,6 +125,6 @@ while True:
     if reached:
         break
 
-    turnClockwise()
+    turn_clockwise()
 
 print("I am drinking Ribena! I am happy!")
