@@ -1,130 +1,145 @@
 from random import randint
 
-# grid size limit (square)
 grid_size = 10
 
-# robot current coordinates
-row_index = randint(0, grid_size - 1)
-col_index = randint(0, grid_size - 1)
-prev_row_index = row_index
-prev_col_index = col_index
+directions = ["North", "South", "West", "East"]
+clockwise_rotation_table = {0: 3, 3: 1, 1: 2, 2: 0}
 
-# quadrant indentifiers
-quadrant_prompt = ["top left", "top right", "bottom left", "bottom right"]
-# robot current quadrant index
-quadrant_index = 0
-
-# direction indentifiers
-direction_prompt = ["North", "South", "West", "East"]
-# direction (simple) to number conversion table
-direction_indices = {"n": 0, "s": 1, "w": 2, "e": 3}
-# robot current direction
-direction = randint(0, 3)
-
-# turning table
-clockwise_turning_table = {0: 3, 3: 1, 1: 2, 2: 0}
+dest_row = 9
+dest_col = 9
 
 
-def regulate_position(value):
-    """Regulate robot position w.r.t to the grid size limit.
+def run_simulation(grid_size=10):
+    """Start robot navigation simulation.
 
     Args:
-        value (int): value to be regulated
+        grid_size (int): The size of the grid. Defaults to 10.
+    """
+    name, id, row, col, direction = setup_robot(grid_size)
+    print_robot_greeting(name, id)
+
+    while not at_destination(row, col):
+        row, col, moved = navigate(row, col, direction)
+
+        if moved:
+            print("Moving one step foward.")
+            print_location_data(row, col, direction)
+        else:
+            print("I have a wall in front of me!\nTurning 90 degrees clockwise.")
+            direction = rotate_robot(direction)
+
+    print("I am drinking Ribena! I am happy!")
+
+
+def setup_robot(grid_size):
+    """Initialise the robot name, ID, and initial position and direction.
+
+    Args:
+        grid_size (int): The size of the grid.
 
     Returns:
-        int: the regulated grid size.
+        str: Robot name
+        int: Robot ID
+        int: Robot's row coordinate
+        int: Robot's column coordinate
+        str: Robot's direction ("n", "s", "w", or "e")
     """
-    if value < 0:
-        return 0
-
-    if value > grid_size - 1:
-        return grid_size - 1
-
-    return value
-
-
-def update_quadrant_Index():
-    """Recalculate and update robot quadrant index value"""
-    global quadrant_index
-
-    # branchless if statement numeric hack
-    quadrant_index = (row_index > 4) * 2 + (col_index > 4)
+    return (
+        input("What is the name of the robot? "),
+        1000,
+        randint(0, grid_size - 1),
+        randint(0, grid_size - 1),
+        randint(0, 3),
+    )
 
 
-def print_location():
-    """Print location information"""
+def print_robot_greeting(name, id):
+    """Print geeting message
+
+    Args:
+        name (str): Name of the robot
+        id (int): ID of the robot
+    """
+    print("Hello. My name is {}. My ID is {}.".format(name, id))
+
+
+def at_destination(row, col):
+    """Check if the robot is at the destination
+
+    Args:
+        row (int): row index of the robot
+        col (int): column index of the robot
+
+    Returns:
+        bool: if the robot is at the destination
+    """
+    return row == dest_row and col == dest_col
+
+
+def navigate(row, col, direction):
+    """Attempt to move robot forward.
+
+    Args:
+        row (int): row index of the robot
+        col (int): column index of the robot
+        direction (int): direction of the robot
+
+    Returns:
+        int: new row index of the robot
+        int: new column index of the robot
+        bool: whether the robot has moved
+    """
+    prev_row, prev_col = row, col
+
+    if direction < 2:
+        row = regulate_position(row + (2 * direction - 1), row)
+    else:
+        col = regulate_position(col + (2 * direction - 5), col)
+
+    return row, col, prev_row != row or prev_col != col
+
+
+def regulate_position(new_pos, prev_pos):
+    """Check if new position is within the grid boundaries.
+
+    Args:
+        new_pos (int): new position value
+        old_pos (int): old position value
+
+    Returns:
+        int: valid position value
+    """
+    if new_pos < 0 or new_pos >= grid_size:
+        return prev_pos
+    return new_pos
+
+
+def print_location_data(row, col, direction):
+    """Print the location data
+
+    Args:
+        row (int): row index of the robot
+        col (int): column index of the robot
+        direction (int): direction of the robot
+    """
     print(
-        "My current location is ({}, {}), facing {}.".format(
-            row_index, col_index, direction_prompt[direction]
+        "My current location is ({}, {}), facing {}".format(
+            row, col, directions[direction]
         )
     )
 
 
-def move():
-    """Update robot location by 1 step"""
-    global row_index, col_index, prev_row_index, prev_col_index
+def rotate_robot(direction):
+    """Rotates the robot 90 degrees clockwise.
 
-    if direction < 2:
-        # branchless if statement numeric hack
-        # if direction == 0, row_index -= 1, else row_index += 1
-        prev_row_index = row_index
-        row_index = regulate_position(row_index + (2 * direction - 1))
-    else:
-        # branchless if statement numeric hack
-        # if direction == 2, col_index -= 1, else col_index += 1
-        prev_col_index = col_index
-        col_index = regulate_position(col_index + (2 * direction - 5))
+    Args:
+        direction (int): current robot direction
 
-    if prev_row_index == row_index and prev_col_index == col_index:
-        print("I have a wall in front of me!")
-        return False
-    else:
-        update_quadrant_Index()
+    Returns:
+        int: new robot direction after rotation
 
-        print("Moving one step forward.")
-        print_location()
-
-        return True
+    """
+    return clockwise_rotation_table[direction]
 
 
-def turn_clockwise():
-    """Rotate robot clockwise by 90 degrees."""
-    global direction
-
-    direction = clockwise_turning_table[direction]
-
-    print("Turning 90 degrees clockwise.")
-    print_location()
-
-
-name = input("What is the name of the robot? ")
-# row_index = int(input("What is its row coordinate? "))
-# col_index = int(input("What is its column coordinate? "))
-# direction_input = input("What is its initial direction [n|s|e|w]? ")
-
-# regulate input values
-# row_index = regulate_position(row_index)
-# col_index = regulate_position(col_index)
-
-# if direction_input in direction_indices:
-# direction = direction_indices[direction_input]
-
-# calculate quadrant
-update_quadrant_Index()
-
-print("Hello. My name is {}. My ID is 1000.".format(name))
-print_location()
-
-reached = False
-while True:
-    while move():
-        if row_index == grid_size - 1 and col_index == grid_size - 1:
-            reached = True
-            break
-
-    if reached:
-        break
-
-    turn_clockwise()
-
-print("I am drinking Ribena! I am happy!")
+run_simulation(grid_size)
