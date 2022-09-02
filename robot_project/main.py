@@ -1,24 +1,59 @@
-from random import randint
+from random import choice, choices, randint
 
 grid_size = 10
 
 directions = ["North", "South", "West", "East"]
 clockwise_rotation_table = {0: 3, 3: 1, 1: 2, 2: 0}
 
-dest_row = 9
-dest_col = 9
+base_id = 1001
+
+destinations = [(0, 0), (0, 9), (9, 0), (9, 9)]
 
 
-def run_simulation(grid_size=10):
+def read_name_file(filename):
+    """Read names from robot name file
+
+    Args:
+        filename (str): file path
+
+    Returns:
+        list(str): list of names
+    """
+    return [line.strip() for line in open(filename)]
+
+
+def setup_robot(grid_size, robot_index):
+    """Initialise the robot name, ID, and initial position and direction.
+
+    Args:
+        grid_size (int): The size of the grid.
+        robot_index (int): The index of the current robot
+
+    Returns:
+        str: Robot name
+        int: Robot ID
+        int: Robot's row coordinate
+        int: Robot's column coordinate
+        str: Robot's direction ("n", "s", "w", or "e")
+    """
+    return (
+        choice(read_name_file("robot_project/robot_names.txt")),
+        base_id + robot_index,
+        randint(0, grid_size - 1),
+        randint(0, grid_size - 1),
+        randint(0, 3),
+    )
+
+
+def run_simulation(name, row, col, direction, dest_row, dest_col):
     """Start robot navigation simulation.
 
     Args:
         grid_size (int): The size of the grid. Defaults to 10.
     """
-    name, id, row, col, direction = setup_robot(grid_size)
-    print_robot_greeting(name, id)
+    print("\n{} is searching for its drink.".format(name))
 
-    while not at_destination(row, col):
+    while not at_destination(row, col, dest_row, dest_col):
         row, col, moved = navigate(row, col, direction)
 
         if moved:
@@ -31,28 +66,6 @@ def run_simulation(grid_size=10):
     print("I am drinking Ribena! I am happy!")
 
 
-def setup_robot(grid_size):
-    """Initialise the robot name, ID, and initial position and direction.
-
-    Args:
-        grid_size (int): The size of the grid.
-
-    Returns:
-        str: Robot name
-        int: Robot ID
-        int: Robot's row coordinate
-        int: Robot's column coordinate
-        str: Robot's direction ("n", "s", "w", or "e")
-    """
-    return (
-        input("What is the name of the robot? "),
-        1000,
-        randint(0, grid_size - 1),
-        randint(0, grid_size - 1),
-        randint(0, 3),
-    )
-
-
 def print_robot_greeting(name, id):
     """Print geeting message
 
@@ -63,7 +76,7 @@ def print_robot_greeting(name, id):
     print("Hello. My name is {}. My ID is {}.".format(name, id))
 
 
-def at_destination(row, col):
+def at_destination(row, col, dest_row, dest_col):
     """Check if the robot is at the destination
 
     Args:
@@ -142,4 +155,13 @@ def rotate_robot(direction):
     return clockwise_rotation_table[direction]
 
 
-run_simulation(grid_size)
+robots = 3
+robot_data = []
+for index, destination in enumerate(choices(destinations, k=robots)):
+    name, id, row, col, direction = setup_robot(grid_size, index)
+    robot_data.append((name, row, col, direction, destination[0], destination[1]))
+    print_robot_greeting(name, id)
+
+for data in robot_data:
+    name, row, col, direction, dest_row, dest_col = data
+    run_simulation(name, row, col, direction, dest_row, dest_col)
