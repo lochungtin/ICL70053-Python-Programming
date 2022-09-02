@@ -1,11 +1,16 @@
+from random import randint
+
 grid_size = 10
+
+row_index = randint(0, grid_size - 1)
+col_index = randint(0, grid_size - 1)
 
 quadrant_prompt = ["top left", "top right", "bottom left", "bottom right"]
 quadrant_index = 0
 
 direction_prompt = ["North", "South", "West", "East"]
 direction_indices = {"n": 0, "s": 1, "w": 2, "e": 3}
-direction = 0
+direction = randint(0, 3)
 
 
 def regulatePosition(value):
@@ -46,16 +51,16 @@ def move():
 
 
 name = input("What is the name of the robot? ")
-row_index = int(input("What is its row coordinate? "))
-col_index = int(input("What is its column coordinate? "))
-direction_input = input("What is its initial direction [n|s|e|w]? ")
+# row_index = int(input("What is its row coordinate? "))
+# col_index = int(input("What is its column coordinate? "))
+# direction_input = input("What is its initial direction [n|s|e|w]? ")
 
 # regulate input values
-row_index = regulatePosition(row_index)
-col_index = regulatePosition(col_index)
+# row_index = regulatePosition(row_index)
+# col_index = regulatePosition(col_index)
 
-if direction_input in direction_indices:
-    direction = direction_indices[direction_input]
+# if direction_input in direction_indices:
+# direction = direction_indices[direction_input]
 
 # calculate quadrant
 updateQuadrantIndex()
