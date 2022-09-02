@@ -1,19 +1,30 @@
 from random import randint
 
+# grid size limit (square)
 grid_size = 10
 
+# robot current coordinates
 row_index = randint(0, grid_size - 1)
 col_index = randint(0, grid_size - 1)
 
+# quadrant indentifiers
 quadrant_prompt = ["top left", "top right", "bottom left", "bottom right"]
+# robot current quadrant index
 quadrant_index = 0
 
+# direction indentifiers
 direction_prompt = ["North", "South", "West", "East"]
+# direction (simple) to number conversion table
 direction_indices = {"n": 0, "s": 1, "w": 2, "e": 3}
+# robot current direction
 direction = randint(0, 3)
 
 
 def regulatePosition(value):
+    """
+    Regulate robot position w.r.t to the grid size limit.
+    Returns the regulated grid size.
+    """
     if value < 0:
         return 0
 
@@ -24,11 +35,13 @@ def regulatePosition(value):
 
 
 def updateQuadrantIndex():
+    """Recalculate and update robot quadrant index value"""
     global quadrant_index
     quadrant_index = (row_index > 4) * 2 + (col_index > 4)
 
 
 def printLocation():
+    """Print location information"""
     print(
         "My current location is ({}, {}). I am in the {} quadrant".format(
             row_index, col_index, quadrant_prompt[quadrant_index]
@@ -37,6 +50,7 @@ def printLocation():
 
 
 def move():
+    """Update robot location by 1 step"""
     global row_index, col_index
 
     if direction < 2:
