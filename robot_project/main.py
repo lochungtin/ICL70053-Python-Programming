@@ -26,9 +26,13 @@ clockwise_turning_table = {0: 3, 3: 1, 1: 2, 2: 0}
 
 
 def regulatePosition(value):
-    """
-    Regulate robot position w.r.t to the grid size limit.
-    Returns the regulated grid size.
+    """Regulate robot position w.r.t to the grid size limit.
+
+    Args:
+        value (int): value to be regulated
+
+    Returns:
+        int: the regulated grid size.
     """
     if value < 0:
         return 0
@@ -84,6 +88,7 @@ def move():
 
 
 def turnClockwise():
+    """Rotate robot clockwise by 90 degrees."""
     global direction
 
     direction = clockwise_turning_table[direction]
