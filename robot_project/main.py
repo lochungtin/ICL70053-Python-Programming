@@ -1,5 +1,7 @@
 from random import choice, choices, randint
 
+from robot import Robot
+
 grid_size = 10
 
 directions = ["North", "South", "West", "East"]
@@ -32,12 +34,12 @@ def setup_robot(grid_size, robot_index):
     Returns:
         dict[str, any]: robot data
     """
-    return {
-        "name": choice(read_name_file("robot_project/robot_names.txt")),
-        "id": base_id + robot_index,
-        "position": (randint(0, grid_size - 1), randint(0, grid_size - 1)),
-        "direction": randint(0, 3),
-    }
+    return Robot(
+        choice(read_name_file("robot_project/robot_names.txt")),
+        base_id + robot_index,
+        (randint(0, grid_size - 1), randint(0, grid_size - 1)),
+        randint(0, 3),
+    )
 
 
 def run_simulation(robot, destination):
@@ -47,9 +49,9 @@ def run_simulation(robot, destination):
         robot (dict[str, any]): robot current data
         destination (Tuple[int, int]): robot's destination
     """
-    print("\n{} is searching for its drink.".format(robot["name"]))
+    print("\n{} is searching for its drink.".format(robot.name))
 
-    while robot["position"] != destination:
+    while robot.position != destination:
         if navigate(robot):
             print("Moving one step foward.")
             print_location_data(robot)
@@ -66,7 +68,7 @@ def print_robot_greeting(robot):
     Args:
         robot (dict[str, any]): robot current data
     """
-    print("Hello. My name is {}. My ID is {}.".format(robot["name"], robot["id"]))
+    print("Hello. My name is {}. My ID is {}.".format(robot.name, robot.id))
 
 
 def navigate(robot):
@@ -78,15 +80,15 @@ def navigate(robot):
     Returns:
         bool: whether the robot has moved
     """
-    prev_row, prev_col = robot["position"]
-    row, col = robot["position"]
+    prev_row, prev_col = robot.position
+    row, col = robot.position
 
-    if robot["direction"] < 2:
-        row = regulate_position(prev_row + (2 * robot["direction"] - 1), prev_row)
+    if robot.direction < 2:
+        row = regulate_position(prev_row + (2 * robot.direction - 1), prev_row)
     else:
-        col = regulate_position(prev_col + (2 * robot["direction"] - 5), prev_col)
+        col = regulate_position(prev_col + (2 * robot.direction - 5), prev_col)
 
-    robot["position"] = (row, col)
+    robot.position = (row, col)
 
     return prev_row != row or prev_col != col
 
@@ -114,7 +116,7 @@ def print_location_data(robot):
     """
     print(
         "My current location is {}, facing {}".format(
-            robot["position"], directions[robot["direction"]]
+            robot.position, directions[robot.direction]
         )
     )
 
@@ -125,7 +127,7 @@ def rotate_robot(robot):
     Args:
         robot (dict[str, any]): robot current data
     """
-    robot["direction"] = clockwise_rotation_table[robot["direction"]]
+    robot.direction = clockwise_rotation_table[robot.direction]
 
 
 robots = 3
