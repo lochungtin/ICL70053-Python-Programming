@@ -1,6 +1,6 @@
 from random import choices
 
-from robot_init import RobotFactory
+from robot_project.robotfactory import RobotFactory
 
 
 def run_simulation(robot, destination):
