@@ -37,6 +37,8 @@ def regulatePosition(value):
 def updateQuadrantIndex():
     """Recalculate and update robot quadrant index value"""
     global quadrant_index
+
+    # branchless if statement numeric hack
     quadrant_index = (row_index > 4) * 2 + (col_index > 4)
 
 
@@ -54,8 +56,12 @@ def move():
     global row_index, col_index
 
     if direction < 2:
+        # branchless if statement numeric hack
+        # if direction == 0, row_index -= 1, else row_index += 1
         row_index = regulatePosition(row_index + (2 * direction - 1))
     else:
+        # branchless if statement numeric hack
+        # if direction == 2, col_index -= 1, else col_index += 1
         col_index = regulatePosition(col_index + (2 * direction - 5))
 
     updateQuadrantIndex()
