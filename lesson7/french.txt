@@ -1,0 +1,18 @@
+a	un	une
+and	et
+ball	balle	ballon	boule
+bank	banque	bancaire	rive
+boy	garçon	fils
+computer	ordinateur	ordi	calculateur	calcul
+dog	chien
+grass	herbe	gazon	pelouse
+hat	chapeau	casquette	bonnet
+house	maison	résidence	domicile	habitation
+in	dans	en
+is	est
+park	parc	garer	stationner
+school	école	lycée	enseignement	collège
+seal	joint	sceau
+the	le	les	la
+toy	jouet
+with	avec	à	de	en	aux
