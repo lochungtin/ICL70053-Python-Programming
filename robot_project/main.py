@@ -26,77 +26,69 @@ def setup_robot(grid_size, robot_index):
     """Initialise the robot name, ID, and initial position and direction.
 
     Args:
-        grid_size (int): The size of the grid.
-        robot_index (int): The index of the current robot
+        grid_size (int): the size of the grid.
+        robot_index (int): the index of the current robot
 
     Returns:
-        str: Robot name
-        int: Robot ID
-        Tuple[int, int]: Robot's position
-        str: Robot's direction ("n", "s", "w", or "e")
+        dict[str, any]: robot data
     """
-    return (
-        choice(read_name_file("robot_project/robot_names.txt")),
-        base_id + robot_index,
-        (randint(0, grid_size - 1), randint(0, grid_size - 1)),
-        randint(0, 3),
-    )
+    return {
+        "name": choice(read_name_file("robot_project/robot_names.txt")),
+        "id": base_id + robot_index,
+        "position": (randint(0, grid_size - 1), randint(0, grid_size - 1)),
+        "direction": randint(0, 3),
+    }
 
 
-def run_simulation(name, position, direction, destination):
+def run_simulation(robot, destination):
     """Start robot navigation simulation.
 
     Args:
-        name (str): name of the robot
-        position (Tuple[int, int]): robot's starting position
-        direction (int): robot's starting direction
+        robot (dict[str, any]): robot current data
         destination (Tuple[int, int]): robot's destination
     """
-    print("\n{} is searching for its drink.".format(name))
+    print("\n{} is searching for its drink.".format(robot["name"]))
 
-    while position != destination:
-        position, moved = navigate(position, direction)
-
-        if moved:
+    while robot["position"] != destination:
+        if navigate(robot):
             print("Moving one step foward.")
-            print_location_data(position, direction)
+            print_location_data(robot)
         else:
             print("I have a wall in front of me!\nTurning 90 degrees clockwise.")
-            direction = rotate_robot(direction)
+            rotate_robot(robot)
 
     print("I am drinking Ribena! I am happy!")
 
 
-def print_robot_greeting(name, id):
+def print_robot_greeting(robot):
     """Print geeting message
 
     Args:
-        name (str): Name of the robot
-        id (int): ID of the robot
+        robot (dict[str, any]): robot current data
     """
-    print("Hello. My name is {}. My ID is {}.".format(name, id))
+    print("Hello. My name is {}. My ID is {}.".format(robot["name"], robot["id"]))
 
 
-def navigate(position, direction):
+def navigate(robot):
     """Attempt to move robot forward.
 
     Args:
-        position (Tuple[int, int]): robot's current position
-        direction (int): direction of the robot
+        robot (dict[str, any]): robot current data
 
     Returns:
-        Tuple[int, int]: robot's new position
         bool: whether the robot has moved
     """
-    prev_row, prev_col = position
-    row, col = position
+    prev_row, prev_col = robot["position"]
+    row, col = robot["position"]
 
-    if direction < 2:
-        row = regulate_position(prev_row + (2 * direction - 1), prev_row)
+    if robot["direction"] < 2:
+        row = regulate_position(prev_row + (2 * robot["direction"] - 1), prev_row)
     else:
-        col = regulate_position(prev_col + (2 * direction - 5), prev_col)
+        col = regulate_position(prev_col + (2 * robot["direction"] - 5), prev_col)
 
-    return (row, col), prev_row != row or prev_col != col
+    robot["position"] = (row, col)
+
+    return prev_row != row or prev_col != col
 
 
 def regulate_position(new_value, old_value):
@@ -114,38 +106,35 @@ def regulate_position(new_value, old_value):
     return new_value
 
 
-def print_location_data(position, direction):
+def print_location_data(robot):
     """Print the location data
 
     Args:
-        position (Tuple[int, int]): robot's position
-        direction (int): direction of the robot
+        robot (dict[str, any]): robot current data
     """
     print(
-        "My current location is {}, facing {}".format(position, directions[direction])
+        "My current location is {}, facing {}".format(
+            robot["position"], directions[robot["direction"]]
+        )
     )
 
 
-def rotate_robot(direction):
+def rotate_robot(robot):
     """Rotates the robot 90 degrees clockwise.
 
     Args:
-        direction (int): current robot direction
-
-    Returns:
-        int: new robot direction after rotation
-
+        robot (dict[str, any]): robot current data
     """
-    return clockwise_rotation_table[direction]
+    robot["direction"] = clockwise_rotation_table[robot["direction"]]
 
 
 robots = 3
 robot_data = []
 for index, destination in enumerate(choices(destinations, k=robots)):
-    name, id, position, direction = setup_robot(grid_size, index)
-    robot_data.append((name, position, direction, destination))
-    print_robot_greeting(name, id)
+    robot = setup_robot(grid_size, index)
+    robot_data.append((robot, destination))
+    print_robot_greeting(robot)
 
 for data in robot_data:
-    name, position, direction, destination = data
-    run_simulation(name, position, direction, destination)
+    robot, destination = data
+    run_simulation(robot, destination)
