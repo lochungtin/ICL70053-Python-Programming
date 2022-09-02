@@ -3,12 +3,7 @@ from random import choice, choices, randint
 from robot import Robot
 
 grid_size = 10
-
-directions = ["North", "South", "West", "East"]
-clockwise_rotation_table = {0: 3, 3: 1, 1: 2, 2: 0}
-
 base_id = 1001
-
 destinations = [(0, 0), (0, 9), (9, 0), (9, 9)]
 
 
@@ -62,13 +57,14 @@ def run_simulation(robot, destination):
     robot.print_ending_message()
 
 
-robots = 3
-robot_data = []
-for index, destination in enumerate(choices(destinations, k=robots)):
-    robot = setup_robot(grid_size, index)
-    robot_data.append((robot, destination))
-    robot.print_greeting_message()
+if __name__ == "__main__":
+    robots = 3
+    robot_data = []
+    for index, destination in enumerate(choices(destinations, k=robots)):
+        robot = setup_robot(grid_size, index)
+        robot_data.append((robot, destination))
+        robot.print_greeting_message()
 
-for data in robot_data:
-    robot, destination = data
-    run_simulation(robot, destination)
+    for data in robot_data:
+        robot, destination = data
+        run_simulation(robot, destination)
