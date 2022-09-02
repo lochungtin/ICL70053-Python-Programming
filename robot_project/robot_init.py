@@ -2,35 +2,38 @@ from random import choice, randint
 
 from robot import Robot
 
-base_id = 1000
 
+class RobotFactory:
+    def __init__(self, grid_size):
+        self.grid_size = grid_size
+        self.grid_max = grid_size - 1
 
-def read_name_file(filename):
-    """Read names from robot name file
+        self.names = [line.strip() for line in open("robot_project/robot_names.txt")]
+        self.counter = 1000
 
-    Args:
-        filename (str): file path
+    def create_robot(self):
+        robot = Robot(
+            self._generate_name(),
+            self._generate_id(),
+            self._generate_position(),
+            self._generate_direction(),
+            self.grid_size,
+        )
+        robot.print_greeting_message()
+        return robot
 
-    Returns:
-        list(str): list of names
-    """
-    return [line.strip() for line in open(filename)]
+    def create_robots(self, counter):
+        return [self.create_robot() for i in range(counter)]
 
+    def _generate_name(self):
+        return choice(self.names)
 
-def setup_robot(grid_size, robot_index):
-    """Initialise the robot name, ID, and initial position and direction.
+    def _generate_id(self):
+        self.counter += 1
+        return self.counter
 
-    Args:
-        grid_size (int): the size of the grid.
-        robot_index (int): the index of the current robot
+    def _generate_direction(self):
+        return choice(range(4))
 
-    Returns:
-        dict[str, any]: robot data
-    """
-    return Robot(
-        choice(read_name_file("robot_project/robot_names.txt")),
-        base_id + robot_index + 1,
-        (randint(0, grid_size - 1), randint(0, grid_size - 1)),
-        randint(0, 3),
-        grid_size,
-    )
+    def _generate_position(self):
+        return (randint(0, self.grid_max), randint(0, self.grid_max))

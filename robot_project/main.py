@@ -1,10 +1,6 @@
 from random import choices
 
-from robot_init import setup_robot
-
-grid_size = 10
-
-destinations = [(0, 0), (0, 9), (9, 0), (9, 9)]
+from robot_init import RobotFactory
 
 
 def run_simulation(robot, destination):
@@ -27,13 +23,12 @@ def run_simulation(robot, destination):
 
 
 if __name__ == "__main__":
-    robots = 3
-    robot_data = []
-    for index, destination in enumerate(choices(destinations, k=robots)):
-        robot = setup_robot(grid_size, index)
-        robot_data.append((robot, destination))
-        robot.print_greeting_message()
+    grid_size = 10
+    destinations = [(0, 0), (0, 9), (9, 0), (9, 9)]
 
-    for data in robot_data:
-        robot, destination = data
-        run_simulation(robot, destination)
+    robot_count = 3
+    factory = RobotFactory(grid_size)
+    robots = factory.create_robots(robot_count)
+
+    for index, destination in enumerate(choices(destinations, k=robot_count)):
+        run_simulation(robots[index], destination)
