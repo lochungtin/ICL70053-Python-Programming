@@ -1,37 +1,17 @@
 from random import choices
 
 from drinkfactory import DrinkFactory
+from grid import Grid
 from robotfactory import RobotFactory
 
-
-def run_simulation(robot, destination):
-    """Start robot navigation simulation.
-
-    Args:
-        robot (Robot): robot current data
-        destination (Tuple[int, int]): robot's destination
-    """
-    robot.print_starting_message()
-
-    robot.set_destination(destination)
-    while not robot.is_at_destination():
-        if robot.move_foward():
-            robot.print_location_message()
-        else:
-            robot.turn_right()
-
-    robot.print_ending_message()
-
-
 if __name__ == "__main__":
-    grid_size = 10
     simulation_counter = 3
 
-    robot_factory = RobotFactory(grid_size)
-    drink_factory = DrinkFactory(grid_size)
+    grid = Grid(10)
 
-    robots = robot_factory.create_robots(simulation_counter)
-    drinks = drink_factory.create_drinks(simulation_counter)
+    for (drink, position) in DrinkFactory(grid.size).create_drinks(simulation_counter):
+        grid.add_drink(drink, position)
 
-    for [robot, drink] in zip(robots, drinks):
-        run_simulation(robot, drink[1])
+    for robot in RobotFactory(grid.size).create_robots(simulation_counter):
+        robot.set_grid(grid)
+        robot.navigate_to_drink()
