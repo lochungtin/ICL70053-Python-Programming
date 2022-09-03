@@ -19,7 +19,9 @@ def group_by(employees, criterion):
     return rt
 
 
-employee_dict = load_indexed_employees("lesson7/employee_details.txt")
+employee_dict = load_indexed_employees(
+    "lesson7/employee_mini_project/employee_details.txt"
+)
 print(len(employee_dict))
 
 employee_ids = list(employee_dict)

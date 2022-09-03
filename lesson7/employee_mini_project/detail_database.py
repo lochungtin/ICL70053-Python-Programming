@@ -19,7 +19,7 @@ def filter_employees(employees, criterion):
     return rt
 
 
-employees = load_employees("lesson7/employee_details.txt")
+employees = load_employees("lesson7/employee_mini_project/employee_details.txt")
 
 criterion = ("nationality", "portugal")
 filtered_employees = filter_employees(employees, criterion)
