@@ -15,5 +15,4 @@ if __name__ == "__main__":
 
     robots = RobotFactory(grid.size).create_robots(simulation_counter)
     for robot in robots:
-        robot.set_grid(grid)
-        robot.navigate_to_drink()
+        robot.navigate_to_drink(grid)

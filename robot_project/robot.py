@@ -10,12 +10,8 @@ class Robot:
         self.direction = direction
         self.grid_max = grid_size - 1
 
-    # bind grid
-    def set_grid(self, grid):
-        self.grid = grid
-
     # main simulation function
-    def navigate_to_drink(self):
+    def navigate_to_drink(self, grid):
         self._print_starting_message()
 
         finding = True
@@ -23,7 +19,7 @@ class Robot:
             if self._move_foward():
                 self._print_location_message()
             else:
-                has_drink, drink = self.grid.has_filled_drink(self.position)
+                has_drink, drink = grid.has_filled_drink(self.position)
                 if has_drink:
                     finding = False
                     drink.set_empty()
