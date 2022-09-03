@@ -9,9 +9,11 @@ if __name__ == "__main__":
 
     grid = Grid(10)
 
-    for (drink, position) in DrinkFactory(grid.size).create_drinks(simulation_counter):
+    drinks = DrinkFactory(grid.size).create_drinks(simulation_counter)
+    for (drink, position) in drinks:
         grid.add_drink(drink, position)
 
-    for robot in RobotFactory(grid.size).create_robots(simulation_counter):
+    robots = RobotFactory(grid.size).create_robots(simulation_counter)
+    for robot in robots:
         robot.set_grid(grid)
         robot.navigate_to_drink()
