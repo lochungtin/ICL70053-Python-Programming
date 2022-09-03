@@ -1,6 +1,6 @@
 import csv
 
-with open("lesson10/students.csv") as csv_file:
+with open("lesson10/grades_mini_project/students.csv") as csv_file:
     reader = csv.DictReader(csv_file, skipinitialspace=True)
 
     data = [
@@ -14,7 +14,7 @@ with open("lesson10/students.csv") as csv_file:
     ]
 
 headers = ["First name", "Last name", "Final", "Grade"]
-with open("lesson10/students_out.csv", "w+") as csv_file:
+with open("lesson10/grades_mini_project/students_out.csv", "w+") as csv_file:
     writer = csv.DictWriter(csv_file, fieldnames=headers, delimiter=",")
     writer.writeheader()
     writer.writerows(data)
