@@ -32,6 +32,8 @@ def save_data(filename, data):
 
 
 if __name__ == "__main__":
-    dataset = load_json("lesson9/" + sys.argv[1])
+    prefix_path = "lesson9/data_visualisation_mini_project/"
+
+    dataset = load_json(prefix_path + sys.argv[1])
     merged = merge_annotations(dataset)
-    save_data("lesson9/" + sys.argv[2], merged)
+    save_data(prefix_path + sys.argv[2], merged)
