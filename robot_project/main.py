@@ -1,5 +1,3 @@
-from random import choices
-
 from drinkfactory import DrinkFactory
 from grid import Grid
 from robotfactory import RobotFactory
