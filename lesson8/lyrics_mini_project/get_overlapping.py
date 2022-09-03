@@ -14,6 +14,9 @@ def get_overlapping_words(file1, file2):
     return l1.intersection(l2)
 
 
-overlap = get_overlapping_words("lesson8/let_it_go.txt", "lesson8/into_the_unknown.txt")
+overlap = get_overlapping_words(
+    "lesson8/lyrics_mini_project/let_it_go.txt",
+    "lesson8/lyrics_mini_project/into_the_unknown.txt",
+)
 print(overlap)
 print(len(overlap))

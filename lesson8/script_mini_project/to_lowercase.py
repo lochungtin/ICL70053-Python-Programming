@@ -15,5 +15,5 @@ def convert_to_lowercase(filename):
     return outfilename
 
 
-outfilename = convert_to_lowercase("lesson8/hamlet.txt")
+outfilename = convert_to_lowercase("lesson8/script_mini_project/hamlet.txt")
 print(outfilename)
