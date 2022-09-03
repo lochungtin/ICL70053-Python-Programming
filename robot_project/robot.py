@@ -13,10 +13,12 @@ class Robot:
     # main simulation function
     def navigate_to_drink(self, grid):
         self._print_starting_message()
+        self._print_location_message()
 
         finding = True
         while finding:
             if self._move_foward():
+                self._print_movement_message()
                 self._print_location_message()
             else:
                 has_drink, drink = grid.has_filled_drink(self.position)
@@ -26,15 +28,18 @@ class Robot:
                 else:
                     self._turn_right()
 
-        self._print_ending_message()
+        self._print_ending_message(drink)
 
     # messages
     def print_greeting_message(self):
         print("Hello. My name is {}. My ID is {}.".format(self.name, self.id))
 
+    def _print_movement_message(self):
+        print("Moving one step foward.")
+
     def _print_location_message(self):
         print(
-            "Moving one step foward.\nMy current location is {}, facing {}".format(
+            "My current location is {}, facing {}".format(
                 self.position, directions[self.direction]
             )
         )
@@ -42,8 +47,8 @@ class Robot:
     def _print_starting_message(self):
         print("\n{} is searching for its drink.".format(self.name))
 
-    def _print_ending_message(self):
-        print("I am drinking Ribena! I am happy!")
+    def _print_ending_message(self, drink):
+        print("I am drinking {}! I am happy!".format(drink.name))
 
     # movement actions
     def _move_foward(self):
@@ -72,3 +77,24 @@ class Robot:
             return self.grid_max
 
         return value
+
+
+class LeapingRobot(Robot):
+    def __init__(self, name, idnum, position, direction, grid_size):
+        super().__init__(name, idnum, position, direction, grid_size)
+
+    def _move_foward(self):
+        prev_row, prev_col = self.position
+        row, col = self.position
+
+        if self.direction < 2:
+            row = self.direction * self.grid_max
+        else:
+            col = (self.direction - 2) * self.grid_max
+
+        self.position = (row, col)
+
+        return row != prev_row or col != prev_col
+
+    def _print_movement_message(self):
+        print("Leaping foward to edge.")

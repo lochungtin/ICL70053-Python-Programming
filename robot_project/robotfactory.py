@@ -1,6 +1,6 @@
-from random import choice, randint
+from random import choice, randint, random
 
-from robot import Robot
+from robot import LeapingRobot, Robot
 
 
 class RobotFactory:
@@ -12,13 +12,16 @@ class RobotFactory:
         self.counter = 1000
 
     def create_robot(self):
-        robot = Robot(
-            self._generate_name(),
-            self._generate_id(),
-            self._generate_position(),
-            self._generate_direction(),
-            self.grid_size,
-        )
+        name = self._generate_name()
+        id = self._generate_id()
+        position = self._generate_position()
+        direction = self._generate_direction()
+
+        if random() > 0.5:
+            robot = Robot(name, id, position, direction, self.grid_size)
+        else:
+            robot = LeapingRobot(name, id, position, direction, self.grid_size)
+
         robot.print_greeting_message()
         return robot
 
