@@ -2,7 +2,7 @@
 
 ## Core (core)
 
-- Lesson 1 - How to Talk to the Computer
+- [Lesson 1]("core_lesson1/") - How to Talk to the Computer
 - Lesson 2 - The Basic Elements
 - Lesson 3 - Discovering your Paths
 - Lesson 4 - Repeated Practice Makes Perfect
