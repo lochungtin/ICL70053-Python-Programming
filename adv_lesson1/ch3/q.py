@@ -9,7 +9,6 @@ def loadEmails(filename):
                 splts = re.split(", ", line[4:])
 
                 for splt in splts:
-                    print(splt)
                     match = re.match('"(?P<name>[A-Za-z\s]+)" <(?P<email>.+)>', splt)
                     rt.append((match.group("name"), match.group("email")))
 

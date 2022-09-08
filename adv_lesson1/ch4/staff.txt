@@ -1,0 +1,3359 @@
+
+<!DOCTYPE html>
+<!-- T4 JS layout -->
+<!--[if IE 8 ]><html lang="en-GB" class="lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en-GB" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-GB" class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<title>Academic staff | Faculty of Engineering | Imperial College London</title>
+
+            <!-- OneTrust Cookies Consent Notice start for imperial.ac.uk -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/6d9efb9d-b605-406f-b8b3-c9644859d064/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="6d9efb9d-b605-406f-b8b3-c9644859d064" ></script>
+<script type="text/javascript">function OptanonWrapper() { }</script>
+<!-- OneTrust Cookies Consent Notice end for imperial.ac.uk -->
+        
+<!-- Content page layout -->
+<!-- no social meta tags -->
+
+ <!-- meta description -->
+ <!-- seo keyphrases -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <!-- assets */ --><link rel="preload" href="/assets/website/fonts/icons/fonts/imperial-icons.woff?vrmf2d" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/assets/website/fonts/fira-sans/FiraSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/website/fonts/fira-sans/FiraSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="/assets/website/stylesheets/css/screen.1.27.11.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/assets/website/stylesheets/css/color-themes.1.27.11.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/assets/website/stylesheets/css/print.1.27.11.css" media="print" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" type="image/svg+xml" href="/assets/website/images/favicon/favicon.svg">
+    <link rel="alternate icon" href="/assets/website/images/favicon/favicon.ico">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-57.png" sizes="57x57">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-76.png" sizes="76x76">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-96.png" sizes="96x96">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-128.png" sizes="128x128">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-192.png" sizes="192x192">
+    <link rel="icon" href="/assets/website/images/favicon/favicon-228.png" sizes="228x228">
+    <link rel="shortcut icon" href="/assets/website/images/favicon/favicon-196.png" sizes="196x196">
+    <link rel="apple-touch-icon" href="/assets/website/images/favicon/favicon-120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/assets/website/images/favicon/favicon-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/assets/website/images/favicon/favicon-180.png" sizes="180x180">
+    <meta name="msapplication-TileColor" content="#C8D8E4">
+    <meta name="msapplication-TileImage" content="/assets/website/images/favicon/favicon-144.png">
+    <meta name="msapplication-config" content="/assets/website/images/favicon/browserconfig.xml" />
+
+    <script src="/assets/website/js/lib/jquery3.min.js"></script>
+    <script defer src="/assets/website/js/build/application.1.27.11.min.js"></script>
+        <!-- assets -->
+
+</head>
+<body class="theme-5">
+
+            <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PS52"
+height="0" width="0" class="sr-only"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PS52');</script>
+<!-- End Google Tag Manager -->
+        
+<!-- Accessibility Links -->
+
+            <a class="skip-to" id="skip-to-content" href="#content">Skip to main content</a>
+<a class="skip-to" id="skip-to-search" href="#q">Skip to search</a>
+<a class="skip-to" id="skip-to-subnav" href="#section-title">Skip to section menu</a>
+<a class="skip-to" id="skip-to-sidebar" href="#secondary-content">Skip to sidebar menu</a>
+<a class="skip-to" id="link-to-accessibility" href="/about-the-site/accessibility/">View accessibility support page</a>
+        
+    <!-- Style Assets : Header -->
+    <header id="header" class="navigation">
+        <div class="container cf">
+            <div class="navigation-header">
+                <h1 class="logo"><a href="/" class="brand" title="Imperial College London Home"><span class="sr-only">Imperial College London</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 95" class="header-logo" role="img"><title>Imperial College London</title><g fill="#FFFFFF"><path d="M.034 39.882V1.941h7.44v37.941H.034zM18.391 15.978h.105c1.794-2.439 5.222-3.848 8.337-3.848 3.32 0 6.168 1.355 7.754 3.848 2.219-2.166 5.646-3.793 8.762-3.848 5.955-.055 9.074 3.688 9.18 9.918v17.779h-7.021V23.351c0-3.143-1.055-6.395-4.533-6.395-3.377 0-5.486 2.057-5.486 6.771v16.154h-7.02v-16.53c0-3.793-1.635-6.395-4.643-6.395-3.326 0-5.38 2.328-5.38 6.936v15.99h-7.02V12.781h6.965v3.197zM70.176 16.468c4.006 0 6.012 4.662 6.012 9.322 0 4.77-1.58 10.406-6.273 10.406-3.801 0-6.492-3.848-6.492-9.539-.001-6.234 2.321-10.189 6.753-10.189zm-6.754-3.687h-7.014v40.654h7.014V36.521c1.955 2.389 4.693 4.01 7.91 4.01 7.547 0 12.295-7.639 12.295-14.795 0-5.963-3.374-13.605-11.657-13.605-3.166 0-6.594 1.627-8.443 4.389h-.105v-3.739zM93.682 23.078c-.053-3.625 1.738-6.936 5.75-6.936 3.48 0 4.906 2.818 4.641 6.936H93.682zm16.993 3.902c.521-8.074-2.908-14.85-11.137-14.85-7.545 0-13.453 5.312-13.453 13.66 0 8.945 5.959 14.74 13.928 14.74 3.006 0 6.752-.867 10.34-3.033l-2.006-3.793c-1.738 1.244-4.486 2.17-7.068 2.17-4.379 0-7.859-3.797-7.699-8.895l17.095.001zM121.023 17.55h.105l1.422-2.113c.844-1.141 2.375-3.307 4.537-3.307 1.584 0 3.27.869 4.75 2.438l-2.637 4.99c-1.16-.598-1.9-.924-3.324-.924-2.426 0-4.803 2.006-4.803 7.859v13.389h-7.018V12.781h6.967l.001 4.769zM141.1 12.781v27.102h-7.014V12.781h7.014zm-7.699-8.127c0-2.064 1.688-4.174 4.062-4.174 2.426 0 4.326 2.059 4.326 4.174 0 2.328-1.639 4.549-4.225 4.549-2.475 0-4.163-2.221-4.163-4.549zM160.157 24.164c.527 7.965-3.109 11.545-5.906 11.545-1.688 0-3.17-1.625-3.17-4.012 0-3.088 1.744-5.146 5.172-6.234l3.904-1.299zm-.103 11.761c0 1.463.156 3.035.682 3.957h7.441c-.846-1.898-1.109-4.445-1.109-6.613V22.214c0-8.457-5.959-10.084-10.814-10.084-3.639 0-6.855.922-10.131 3.688l2.268 3.414c1.85-1.627 3.961-2.764 6.971-2.764 2.268 0 4.428 1.572 4.797 4.064l-6.227 1.896c-6.121 1.787-9.76 4.715-9.76 9.867 0 4.982 3.428 8.234 7.543 8.234 2.428 0 4.807-1.678 6.758-3.252l1.581-1.352zM171.448 39.882V.043h7.013v39.84l-7.013-.001zM224.767 8.824c-1.799-.977-4.803-2.113-7.655-2.113-7.595 0-13.078 5.475-13.078 14.094 0 8.998 6.067 14.309 13.291 14.309 2.852 0 5.487-.814 7.442-1.898l2.058 4.717c-2.269 1.355-6.226 2.6-9.814 2.6-12.824 0-20.895-8.672-20.895-19.834 0-10.354 8.022-19.406 20.996-19.406 3.854 0 7.444 1.41 9.973 2.928l-2.318 4.603z"/><path d="M240.744 36.521c-5.014 0-6.383-5.744-6.383-10.514 0-4.498 1.58-9.865 6.383-9.865 4.906 0 6.435 5.367 6.435 9.865 0 4.77-1.316 10.514-6.435 10.514zm0 4.01c8.287 0 13.871-6.121 13.871-14.523 0-8.781-6.748-13.877-13.871-13.877-7.071 0-13.821 5.096-13.821 13.877 0 8.402 5.592 14.523 13.821 14.523zM257.642 39.882V.043h7.021v39.84l-7.021-.001zM269.084 39.882V.043h7.015v39.84l-7.015-.001zM286.617 23.078c-.06-3.625 1.735-6.936 5.744-6.936 3.485 0 4.907 2.818 4.646 6.936h-10.39zm16.984 3.902c.529-8.074-2.899-14.85-11.131-14.85-7.543 0-13.459 5.312-13.459 13.66 0 8.945 5.963 14.74 13.935 14.74 3.004 0 6.75-.867 10.342-3.033l-2.006-3.793c-1.738 1.244-4.486 2.17-7.07 2.17-4.377 0-7.863-3.797-7.703-8.895l17.092.001zM343.916 23.078c-.051-3.625 1.74-6.936 5.752-6.936 3.479 0 4.908 2.818 4.644 6.936h-10.396zm16.99 3.902c.524-8.074-2.9-14.85-11.132-14.85-7.547 0-13.454 5.312-13.454 13.66 0 8.945 5.959 14.74 13.93 14.74 3.008 0 6.754-.867 10.34-3.033l-2.004-3.793c-1.742 1.244-4.484 2.17-7.07 2.17-4.381 0-7.857-3.797-7.703-8.895l17.093.001zM320.002 16.468c4.224 0 6.384 4.391 6.384 9.105 0 5.42-2.007 10.623-6.703 10.623-4.062 0-6.062-5.096-6.062-10.354-.002-5.255 1.845-9.374 6.381-9.374zm13.402-3.687h-7.019v3.307h-.104c-1.477-2.439-4.645-3.957-7.863-3.957-7.176 0-12.239 6.83-12.239 13.877 0 8.672 4.592 14.523 11.608 14.523 4.013 0 6.752-2.275 8.494-4.553h.104v3.578c0 6.287-3.586 9.215-8.231 9.215-3.586 0-6.595-.705-9.177-2.331l-1.375 4.443c3.115 1.625 7.127 2.552 11.08 2.552 7.863 0 14.722-3.959 14.722-15.991V12.781zM.034 56.146h7.494v32.841h15.771v5.096H.034V56.146zM64.469 70.18c2.503-2.602 5.995-3.85 9.495-3.85 6.496 0 9.607 3.471 9.607 10.299v17.453H76.52V77.443c0-3.791-1.722-6.284-5.554-6.284-3.613 0-6.442 2.327-6.442 6.771v16.152h-7.052V66.984h6.998l-.001 3.196zM101.831 70.672c4.444 0 6.719 4.391 6.719 9.102 0 5.424-2.106 10.623-7.053 10.623-4.273 0-6.383-5.094-6.383-10.352 0-5.257 1.945-9.373 6.717-9.373zm6.719 23.411h7.053V54.249h-7.053V70.13h-.112c-1.665-2.389-4.883-3.799-8.492-3.799-7.444 0-12.662 6.831-12.662 13.877 0 8.67 4.829 14.522 12.105 14.522 4.331 0 7.218-2.274 9.049-4.553h.111l.001 3.906zM133.927 90.719c-5.271 0-6.721-5.742-6.721-10.512 0-4.497 1.664-9.863 6.721-9.863 5.167 0 6.773 5.366 6.773 9.863 0 4.77-1.384 10.512-6.773 10.512zm0 4.011c8.717 0 14.601-6.125 14.601-14.522 0-8.776-7.104-13.877-14.601-13.877-7.441 0-14.549 5.101-14.549 13.877 0 8.397 5.887 14.522 14.549 14.522zM159.358 70.18c2.5-2.602 5.997-3.85 9.493-3.85 6.497 0 9.608 3.471 9.608 10.299v17.453h-7.051V77.443c0-3.791-1.722-6.284-5.556-6.284-3.606 0-6.44 2.327-6.44 6.771v16.152h-7.052V66.984h6.997l.001 3.196zM38.917 90.719c-5.28 0-6.72-5.742-6.72-10.512 0-4.497 1.664-9.863 6.72-9.863 5.164 0 6.774 5.366 6.774 9.863.001 4.77-1.391 10.512-6.774 10.512zm0 4.011c8.716 0 14.602-6.125 14.602-14.522 0-8.776-7.108-13.877-14.602-13.877-7.442 0-14.549 5.101-14.549 13.877.001 8.397 5.884 14.522 14.549 14.522z"/></g></svg>
+        </a></h1>
+                <!-- nav : Disaster alert - high level -->
+                <!-- Disaster alert - text/header - js -->
+<!-- Disaster Alert High Level -->
+<section id="disaster-high" class="disaster alert-high disaster--emergency" itemscope itemtype="http://schema.org/SpecialAnnouncement">
+	<meta itemprop="announcementLocation" itemtype="http://schema.org/CivicStructure" itemscope itemref="footer-contact" content="">
+	<meta itemprop="category" content="https://www.wikidata.org/wiki/Q81068910" />
+	
+	<a href="/about/covid-19/" itemprop="url">
+		<div class="disaster-inner">
+			<h2 class="imperial-alert">Imperial <b>Alert</b></h2>
+			<meta itemprop="datePosted" content="2020-03-20">
+			<meta itemprop="expires" content="2021-07-7" />
+			
+			<h3 itemprop="name">Coronavirus (COVID-19) updates: Safety information for academic year 2021-22</h3>
+			<div class="content" itemprop="text">Latest information for current students, staff, offer holders and applicants</div>
+		</div>
+	</a>
+	
+</section>
+<!-- end Disaster Alert High Level --><!-- End Disaster alert -->
+
+                <!-- nav : News and events header -->
+                <!-- News and Events Feed - text/header - js -->
+<!-- End News &amp Events feed -->
+
+            </div>
+            <nav id="primary-nav" class="wide">
+            <h2 class="sr-only">Main Navigation</h2>
+            <ul class="nav nav-primary">
+                <li class="has-children mega">
+                    <a class="parent" href="#menu-640" data-parent="true">Study</a>
+                    <div id="menu-640" class="toggle-content">
+                        <!-- nav : Mega menu first --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/study/" class="overview_link">Study overview</a></li>
+        <li>
+          <a class="parent feature" href="/study/ug/">Undergraduate</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top Links</span>
+            <ul class="child-menu">
+<li><a href="/study/ug/courses/">Courses for 2022</a></li>
+<li><a title="How to apply" href="/study/ug/apply/">How to apply</a></li>
+<li><a href="/study/ug/fees-and-funding/">Fees and funding</a></li>
+<li><a href="/study/campus-life/accommodation/prospective/ug/">Accommodation</a></li>
+<li><a href="/study/ug/visit/">Open days, events and visits</a></li>
+<li><a href="/study/prospectus/">Undergraduate prospectus</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/study/pg/" >Postgraduate</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top Links</span>
+            <ul class="child-menu">
+<li><a href="/study/pg/courses/">Courses for 2022-23</a></li>
+<li><a href="/study/pg/courses/doctoral-courses/">Doctoral courses</a></li>
+<li><a href="/study/pg/apply/">How to apply</a></li>
+<li><a href="/study/pg/fees-and-funding/">Fees and funding</a></li>
+<li><a href="/study/campus-life/accommodation/prospective/pg/">Accommodation</a></li>
+<li><a href="/study/pg/visit/">Events and visits</a></li>
+<li><a href="/study/pg/courses/study-guide/">Study guide</a></li>
+</ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/faculties-and-departments/"  class="feature">Faculties and departments</a></li>
+
+<li><a href="/faculties-and-departments/"  class="feature">Education centres and schools</a></li>
+
+<li><a href="/admin-services/continuing-professional-development/"  class="feature">Continuing Professional Development </a></li>
+
+
+<li><a href="https://www.imperial.ac.uk/business-school/executive-education/" target='_blank' class="feature">Executive Education</a></li>
+
+
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/living-in-london/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/study-1_1620212654905_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/study-1_1620212654905_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/study-1_1620212654905_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Tower Bridge in London" src="/ImageCropToolT4/imageTool/uploaded-images/study-1_1620212654905_x1.jpg"><span>Living in London</span>London&rsquo;s fusion of culture, charm and career opportunities is hard to beat</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/international-students/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/study-2_1620212679457_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/study-2_1620212679457_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/study-2_1620212679457_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Researcher in a laboratory" src="/ImageCropToolT4/imageTool/uploaded-images/study-2_1620212679457_x1.jpg"><span>International students</span>Students come from over 140 different countries to study at Imperial</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/study/campus-life/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/study-3_1630920279967_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/study-3_1630920279967_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/study-3_1630920279967_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Queen's Lawn at the South Kensington Campus" src="/ImageCropToolT4/imageTool/uploaded-images/study-3_1630920279967_x1.jpg"><span>Campus life</span>Experience what it's like to be a member of the College community</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+                    </div>
+                </li>
+                <li class="has-children mega">
+                    <a class="parent" href="#menu-641" data-parent="true">Research &amp; Innovation</a>
+                    <div id="menu-641" class="toggle-content">
+                        <!-- nav : Mega menu second --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/research-and-innovation/" class="overview_link">Research and Innovation </a></li>
+        <li>
+          <a class="parent feature" href="/research-and-innovation/support-for-partners/">Partner with us</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/medicine/research-and-impact/groups/clinical-trials-unit/collaborations/">Clinical Trials</a></li>
+<li><a href="/admin-services/enterprise/business/">Business support and partnerships</a></li>
+<li><a href="http://www.imperial-consultants.co.uk/" target="_blank">Consultancy</a></li>
+<li><a href="http://wwwf.imperial.ac.uk/business-school/executive-education/">Executive education</a></li>
+<li><a href="/research-and-innovation/support-for-partners/a-z-partners/">A-Z services for partners</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/research-and-innovation/support-for-staff/" >Research support</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/research-and-innovation/support-for-staff/">Resources for staff</a></li>
+<li><a href="/research-and-innovation/support-for-staff/research-office/">Research Office</a></li>
+<li><a href="/research-and-innovation/support-for-staff/faculty-research-services-teams/">Faculty research services teams</a></li>
+<li><a href="/research-and-innovation/about-imperial-research/research-integrity/">Research integrity</a></li>
+<li><a href="/medicine/research-and-impact/groups/clinical-trials-unit/">Clinical Trials</a></li>
+<li><a href="/about/introducing-imperial/global-imperial/">Global Imperial</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/about/leadership-and-strategy/strategy/"  class="feature">College Strategy 2015-2020</a></li>
+
+<li><a href="/faculties-and-departments/"  class="feature">Faculties and departments</a></li>
+
+<li><a href="/a-z-research/"  class="feature">A-Z research groups and centres</a></li>
+
+
+<li><a href="/research-and-innovation/support-for-staff/research-office/funder-information/funding-opportunities/"  class="feature">Funding opportunities</a></li>
+
+<li><a href="/research-and-innovation/about-imperial-research/ref/"  class="feature">REF 2021</a></li>
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/research-and-innovation/impact/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/research-1_1620212412235_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/research-1_1620212412235_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/research-1_1620212412235_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Two researchers in a lab" src="/ImageCropToolT4/imageTool/uploaded-images/research-1_1620212412235_x1.jpg"><span>Imperial&rsquo;s impact</span>Read case studies about how Imperial research has made a difference</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="https://www.imperial.ac.uk/news" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/research-2_1620212446149_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/research-2_1620212446149_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/research-2_1620212446149_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Researcher in a laboratory" src="/ImageCropToolT4/imageTool/uploaded-images/research-2_1620212446149_x1.jpg"><span>Research news</span>Keep up to date with Imperial&rsquo;s cutting edge discoveries</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/admin-services/enterprise/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Natwilai Pae Drone entrepreneur" src="/ImageCropToolT4/imageTool/uploaded-images/181101_natwilai_pae_drone_entrepreneur_031-%281%29--t_1542107706895_x1--tojpeg_1557236663888_x1.jpg"><span>Enterprise</span>Learn how we support entrepreneurship and help find research-driven solutions to industry challenges</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+                    </div>
+                </li>
+                <li class="has-children mega">
+                    <a class="parent" href="#menu-642" data-parent="true">Be Inspired</a>
+                    <div id="menu-642" class="toggle-content">
+                        <!-- nav : Mega menu third --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/be-inspired/" class="overview_link">Be Inspired</a></li>
+        <li>
+          <a class="parent feature" href="/be-inspired/">Take part</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top links</span>
+            <ul>
+<li><span><a href="/be-inspired/schools-outreach/">Schools Outreach</a></span></li>
+<li><a href="/whats-on/">What's on at Imperial</a></li>
+<li><a href="/be-inspired/festival/">Festival</a></li>
+<li><a href="/be-inspired/lates/">Imperial Lates</a></li>
+<li><a href="/alumni/events/">Alumni events</a></li>
+<li><a title="Volunteering%20and%20outreach" href="/be-inspired/volunteering/">Volunteering and outreach</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/be-inspired/social-and-multimedia/" >Engage online</a>
+          <div class="toggle-content">
+            <span class="feature-links">Top links</span>
+            <ul>
+<li><a href="https://www.imperial.ac.uk/news" title="Imperial news">Imperial news</a></li>
+<li><a href="/be-inspired/social-and-multimedia/podcasts/">Podcasts</a></li>
+<li><a href="/be-inspired/magazine/">Imperial Magazine</a></li>
+<li><a href="/be-inspired/stories/">Imperial Stories</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/be-inspired/social-and-multimedia/directory/"  class="feature">Social media directory</a></li>
+
+<li><a href="/be-inspired/volunteering/"  class="feature">Staff and student volunteering</a></li>
+
+<li><a href="/be-inspired/magazine/"  class="feature">Imperial magazine</a></li>
+
+
+<li><a href="/be-inspired/societal-engagement/"  class="feature">Societal engagement</a></li>
+
+
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/be-inspired/social-and-multimedia/podcasts/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Podcasts" src="/ImageCropToolT4/imageTool/uploaded-images/15-02-ImperialPodcast_banner_4--tojpeg_1431608741948_x1.jpg"><span>Imperial College Podcast</span>presented by Gareth Mitchell and the Communications &amp; Public Affairs pod squad</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="https://www.imperial.ac.uk/media/imperial-today/?utm_source=website&utm_medium=mega-menu&utm_campaign=imperial-today" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Imperial Today" src="/ImageCropToolT4/imageTool/uploaded-images/IT-survey1--tojpeg_1525171251932_x1.jpg"><span>Imperial Today</span>Subscribe to our daily newsletter and receive the best stories from Imperial direct to your inbox</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="http://wwwf.imperial.ac.uk/blog/student-blogs/" target="_blank"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Student Blog home page" src="/ImageCropToolT4/imageTool/uploaded-images/Student-blogs--tojpeg_1514904013265_x1.jpg"><span>Student blogs</span>Find out about life on campus from our team of student bloggers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+                    </div>
+                </li>
+                <li class="has-children mega">
+                    <a class="parent" href="#menu-643" data-parent="true">About</a>
+                    <div id="menu-643" class="toggle-content">
+                        <!-- nav : Mega menu fourth --><!-- Mega menu -->
+  <a href="#" class="noscript close-button">Close</a>
+  <div class="child-content equal-height-columns">
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li><a href="/about/" class="overview_link">About</a></li>
+        <li>
+          <a class="parent feature" href="/about/introducing-imperial/">The College</a>
+          <div class="toggle-content">
+            <span class="feature-links">Overview</span>
+            <ul>
+<li><a href="/about/leadership-and-strategy/strategy/">Strategy 2020-2025</a></li>
+<li><a href="/about/leadership-and-strategy/provost/academic-strategy/">Academic Strategy</a></li>
+<li><a href="/about/introducing-imperial/league-tables/">League tables</a></li>
+<li><a href="/about/introducing-imperial/facts-and-figures/">Facts and figures</a></li>
+<li><a href="/admin-services/secretariat/college-governance/">College governance</a></li>
+<li><span><a href="/about/sustainability/">Sustainability</a></span></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+        <li>
+          <a class="parent feature" href="/about/introducing-imperial/our-people/" >Our people</a>
+          <div class="toggle-content">
+            <span class="feature-links">At a glance</span>
+            <ul>
+<li><a href="/about/leadership-and-strategy/president/">President</a></li>
+<li><a href="/about/leadership-and-strategy/provost/">Provost</a></li>
+<li><a href="/alumni/alumni-stories/">Alumni stories</a></li>
+<li><a href="/about/introducing-imperial/our-people/award-winners/">Award winners</a></li>
+<li><a href="http://wwwf.imperial.ac.uk/blog/imperial-people/" title="Recognising our people">Recognising our people</a></li>
+<li><a href="/admin-services/equality/">Equality, diversity and inclusion</a></li>
+</ul>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">&nbsp;</div>
+<div id="HTML5audiodescriptionwithscreenreaderannouncement" style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;">&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 md-4 equal-height">
+      <ul class="group">
+<li><a href="/faculties-and-departments/"  class="feature">A - Z of Faculties and Departments</a></li>
+
+<li><a href="/engineering/"  class="feature">Faculty of Engineering</a></li>
+
+<li><a href="/medicine/"  class="feature">Faculty of Medicine</a></li>
+
+
+<li><a href="/natural-sciences/"  class="feature">Faculty of Natural Sciences</a></li>
+
+<li><a href="https://www.imperial.ac.uk/business-school/?utm_term=college-link" target='_blank' class="feature">Imperial College Business School</a></li>
+
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/about/introducing-imperial/global-imperial/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/about-1_1620212503615_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/about-1_1620212503615_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/about-1_1620212503615_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Female student at South Kensington Campus" src="/ImageCropToolT4/imageTool/uploaded-images/about-1_1620212503615_x1.jpg"><span>Global Imperial</span>We are the UK's most international university </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/visit/campuses/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/about-2_1620212535497_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/about-2_1620212535497_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/about-2_1620212535497_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="South Kensington Campus reception" src="/ImageCropToolT4/imageTool/uploaded-images/about-2_1620212535497_x1.jpg"><span>Our campuses</span>Explore our London locations</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col lg-2 hide-md secondary-content equal-height">
+      <ul>
+        <li class="col">
+          <a href="/about/leadership-and-strategy/white-city-campus/"><img srcset="/ImageCropToolT4/imageTool/uploaded-images/about-3_1620212564596_x1.jpg 207w, /ImageCropToolT4/imageTool/uploaded-images/about-3_1620212564596_x2.jpg 414w, /ImageCropToolT4/imageTool/uploaded-images/about-3_1620212564596_x4.jpg 828w" sizes="(min-width: 1520px) 207px, (min-width: 1025px) calc((100vw - 116px) / 6), (min-width: 930px) calc((100vw - 84px) / 3), 25vw" alt="Sir Michael Uren Hub at the White City Campus" src="/ImageCropToolT4/imageTool/uploaded-images/about-3_1620212564596_x1.jpg"><span>White City Campus</span>Imperial&rsquo;s research and innovation district</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- end Mega menu -->
+                    </div>
+                </li>
+            </ul>
+            <div class="search-secondary-nav-wrap">
+                <!-- nav : Secondary navigation - overall -->
+                <!-- Secondary links -->
+ <ul class="nav nav-secondary">
+
+    
+          <li>
+        <a href="https://www.imperial.ac.uk/news" target='_blank'>News</a>
+      </li>
+    
+
+    
+          <li>
+        <a href="/whats-on/" >What's on</a>
+      </li>
+    
+
+         <li class="only-fixed">
+           <a href="/news/">News</a>
+         </li>
+
+        
+          <li>
+        <a href="/giving/" >Give</a>
+      </li>
+    
+
+         <li class="has-children">
+          <a class="non-link" href="#menu-645" data-toggle="collapse">A-Z</a>
+          <div id="menu-645" class="toggle-content">
+            <div class="child-content">
+              <ul class="group">
+               <li class="noscript"><a href="#" class="close-button">Close</a></li>
+               
+        <li>
+    <a href="/faculties-and-departments/" >Faculties and departments</a>
+   </li>
+  
+        <li>
+    <a href="/multidisciplinary-research/" >Multidisciplinary networks, centres and institutes</a>
+   </li>
+  
+        <li>
+    <a href="/a-z-research/" >Research groups</a>
+   </li>
+  
+        <li>
+    <a href="http://www.imperial.ac.uk/collegedirectory/" target='_blank'>People finder</a>
+   </li>
+  
+        <li>
+    <a href="/admin-services/" >Administration and support services</a>
+   </li>
+   <!-- a-z content -->
+              </ul>
+            </div>
+          </div>
+         </li>
+         <li class="has-children shorten">
+          <a class="non-link" href="#menu-646" data-toggle="collapse">Information for</a>
+           <div id="menu-646" class="toggle-content">
+            <div class="child-content">
+              <ul class="group">
+                 <li class="noscript"><a href="#" class="close-button">Close</a></li>
+                 
+        <li>
+    <a href="/study/" >Prospective students</a>
+   </li>
+  
+        <li>
+    <a href="/students/" >Current students</a>
+   </li>
+  
+        <li>
+    <a href="/alumni/" >Alumni</a>
+   </li>
+  
+        <li>
+    <a href="/staff/" >Staff</a>
+   </li>
+  
+        <li>
+    <a href="/jobs/" >Jobs at Imperial</a>
+   </li>
+  
+        <li>
+    <a href="/research-and-innovation/support-for-partners/" >Partners and business</a>
+   </li>
+  
+        <li>
+    <a href="/media/" >Media</a>
+   </li>
+  
+        <li>
+    <a href="/giving/" >Donors</a>
+   </li>
+  
+        <li>
+    <a href="/parents/" >Parents</a>
+   </li>
+  
+        <li>
+    <a href="/admin-services/events-and-hospitality/" >Conference organisers </a>
+   </li>
+   <!-- info for -->
+              </ul>
+            </div>
+          </div>
+         </li>
+      </ul>
+<!-- end Secondary links -->
+                <!-- nav : Common Search code -->
+                
+            <!-- Begin Imperial Search -->
+<div id="search-area">
+        <form id="search" action="/search/" method="get">
+          <div id="search-inner-wrapper">
+            <label class="sr-only" for="q">Search Imperial</label>
+            <input type="text" title="Search for..." placeholder="Search" class="clearDefault" value="" id="q" name="q">
+          </div>
+          <button class="submitButton" id="searchSubmit" title="Search" type="submit">Search</button>
+        </form>
+      </div>
+<!-- End Imperial Search -->
+        
+            </div>
+            <!-- end Search and secondary nav wrap -->
+        </nav>
+        <!-- end Style Assets : Header -->
+
+<section class="section-nav">
+<h2 id="section-title"><a href="#menu-114153" data-toggle="section">Department of Computing</a></h2>
+<nav id="menu-114153" class="menus">
+<h3 class="sr-only">Section Navigation </h3>
+<ul>
+<li class="noscript"><a href="#" class="close-button">Close</a></li>
+<li class="overview_link_wrapper"><a href="/engineering/departments/computing/" class="overview_link">Department of Computing Overview</a></li>
+<!-- nav object : Level 3 link menu -->
+<li><a href="/engineering/departments/computing/about/">About</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/about/getting-here/">Getting here</a></li>
+<li><a href="/engineering/departments/computing/about/our-values/">Our values</a></li>
+<li><a href="/engineering/departments/computing/about/facilities/">Our facilities</a></li>
+<li><a href="/engineering/departments/computing/about/useful-contacts/">Useful contacts</a></li>
+<li><a href="/engineering/departments/computing/about/equality-and-diversity/">Equality and Diversity</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/about/equality-and-diversity/edcc/">Equality, Diversity and Culture Committee</a></li>
+<li><a href="/engineering/departments/computing/about/equality-and-diversity/women-in-computing/">Women in Computing</a></li>
+<li><a href="/engineering/departments/computing/about/equality-and-diversity/athena-swan/">Athena SWAN</a></li>
+<li><a href="/engineering/departments/computing/about/equality-and-diversity/resources/">Resources</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/about/job-vacancies/">Vacancies</a></li>
+<li><a href="/engineering/departments/computing/about/news/">News and events</a></li>
+<li><a href="/engineering/departments/computing/about/health-and-safety/">Health and safety</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/about/health-and-safety/qualified-first-aiders/">Qualified first aiders</a></li>
+<li><a href="/engineering/departments/computing/about/health-and-safety/training/">Training requirements</a></li>
+<li><a href="/engineering/departments/computing/about/health-and-safety/theft/">Theft</a></li>
+<li><a href="/engineering/departments/computing/about/health-and-safety/students-welcome-information/">Students Welcome Information</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li><li><span class="currentbranch0"><a href="/engineering/departments/computing/people/">People</a></span>
+<ul class="multilevel-linkul-0">
+<li><span class="currentbranch1"><a href="/engineering/departments/computing/people/academic-staff/">Academic staff</a></span>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/academic-staff/new-staff/">Welcome to new academics</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/teaching-fellows/">Teaching fellows</a></li>
+<li><a href="/engineering/departments/computing/people/research/">Research staff</a></li>
+<li><a href="/engineering/departments/computing/people/administrative-staff/">Administrative staff</a></li>
+<li><a href="/engineering/departments/computing/people/csg/">CSG</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/csg/recent-changes/">Recent changes</a></li>
+<li><a href="/engineering/departments/computing/people/csg/new-users/">New users</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/new-users/students/">Students</a>
+<ul class="multilevel-linkul-3">
+<li><a href="/engineering/departments/computing/people/csg/new-users/students/regulations/">Lab regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/new-users/staff-and-phds/">Staff and PhDs</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/services/">Services</a></li>
+<li><a href="/engineering/departments/computing/people/csg/guides/">Guides</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/guides/remote-access/">Remote Access</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/">Facilities</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/facilities/loans/">Loans</a></li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/lab/">Lab</a>
+<ul class="multilevel-linkul-3">
+<li><a href="/engineering/departments/computing/people/csg/facilities/lab/workstations/">Workstations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/theatres/">Theatres</a></li>
+
+</ul>
+</li>
+<li><a href="https://otrs.doc.ic.ac.uk/" target="_blank">Help desk</a></li>
+<li><a href="/engineering/departments/computing/people/csg/policies/">Policies</a></li>
+<li><a href="/engineering/departments/computing/people/csg/activities/">Activities</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/activities/csg-systems-activities/">CSG Systems Activities</a></li>
+<li><a href="/engineering/departments/computing/people/csg/activities/information-systems-activities/">Information Systems Activities</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/honorary-staff/">Honorary staff</a></li>
+<li><a href="/engineering/departments/computing/people/emeritus-staff/">Emeritus staff</a></li>
+<li><a href="/engineering/departments/computing/people/deepmind-scholars/">DeepMind scholarships</a></li>
+<li><a href="/engineering/departments/computing/people/alumnus/">Alumnus</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/research/">Research</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/research/artificial-intelligence/">Artificial Intelligence</a></li>
+<li><a href="/engineering/departments/computing/research/data-science/">Data Science</a></li>
+<li><a href="/engineering/departments/computing/research/programming-languages/">Programming Languages</a></li>
+<li><a href="/engineering/departments/computing/research/security/">Security</a></li>
+<li><a href="/engineering/departments/computing/research/software-engineering/">Software Engineering</a></li>
+<li><a href="/engineering/departments/computing/research/systems/">Systems</a></li>
+<li><a href="/engineering/departments/computing/research/theory-and-algorithms/">Theory and Algorithms</a></li>
+<li><a href="/engineering/departments/computing/research/analysis-and-verification/">Analysis and Verification</a></li>
+<li><a href="/engineering/departments/computing/research/visual-computing/">Visual Computing</a></li>
+<li><a href="/engineering/departments/computing/research/research-groups-listed-alphabetically/">Research groups listed alphabetically</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/prospective-students/">Prospective students</a>
+<ul class="multilevel-linkul-0">
+<li><a href="https://www.imperial.ac.uk/computing/prospective-students/" target="_blank">Welcome</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/ug/">Undergraduate courses</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/prospective-students/ug/beng-meng-computing/">BEng/MEng Computing</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/ug/beng-meng-jmc/">BEng/MEng Joint Mathematics and Computer Science</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/">Postgraduate courses</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-computing/">MSc Computing</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-computing/msc-comp-reg/">MSc Computing Science regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/mac/">MSc Advanced Computing</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/prospective-students/pg/mac/msc-advanced-reg/">MSc Advanced Computing regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/mai/">MSc in Artificial Intelligence</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/prospective-students/pg/mai/mai-reg/">MSc Artificial Intelligence regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/">MSc Specialist Degrees</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/aiml/">MSc in Computing (Artificial Intelligence and Machine Learning)</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/cms/">MSc in Computing (Management and Finance)</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/sr/">MSc in Computing (Security and Reliability)</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/se/">MSc in Computing (Software Engineering)</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/vcr/">MSc in Computing (Visual Computing and Robotics)</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/msc-specialist-degrees/msc-spec-reg/">MSc in Computing (Specialisms) regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/mresphd/">Integrated MRes/PhD Degrees</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/pg/mres-ai-and-machine-learning/">MRes AI and Machine Learning</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/phd/">PhD</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/prospective-students/phd/faqs/">FAQs</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/phd/scholarships/">Scholarships</a></li>
+<li><a href="http://wp.doc.ic.ac.uk/hipeds/" target="_blank">HiPEDS Centre for Doctoral Training</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/phd/phd-stories/">PhD success stories</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/phd/phd-application-guidelines/">PhD application guidelines</a></li>
+<li><a href="https://ai4health.io/" target="_blank">AI4Health Centre for Doctoral Training</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/prospective-students/open-days/">Open days and taster courses</a></li>
+<li><a href="/engineering/departments/computing/prospective-students/covid-19-updates/">COVID-19 Updates</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/current-students/">Current students</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/current-students/computing/">Undergraduate Computing: degree and course information</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/current-students/computing/ug/">Undergraduate degrees</a></li>
+<li><a href="/engineering/departments/computing/current-students/computing/ug-handbook/">UG handbook</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/current-students/jmc/">Undergraduate JMC: degree and course information</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/current-students/jmc/jmc-degrees/">JMC undergraduate degrees</a></li>
+<li><a href="/engineering/departments/computing/current-students/computing/ug-handbook/">UG handbook</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/current-students/pg-info/">Postgraduate degrees and course information</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/current-students/pg-info/pg-handbook/">PG handbook</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/current-students/phd-info/">PhD information</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/current-students/phd-info/phd-diary/">PhD diary</a></li>
+<li><a href="/engineering/departments/computing/current-students/phd-info/facewall-phd-1st-year---cohort-2020--2021/">Facewall PhD 1st Year - Cohort 2020 / 2021</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/current-students/undergraduate-student-welfare/">Undergraduate student welfare</a></li>
+<li><a href="/engineering/departments/computing/current-students/studenthub/">DoC student hub</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/industry/">Industry</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/prospective-students/careers/cpp/">Recruit our Students</a></li>
+<li><a href="/engineering/departments/computing/industry/placements/">Industrial placements</a></li>
+<li><a href="/engineering/departments/computing/industry/cpp/">Corporate Partnership Programme</a></li>
+<li><a href="/engineering/departments/computing/industry/industrial-liaison/">Industrial Advisory Board</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/industry/industrial-liaison/membership/">Membership</a></li>
+<li><a href="/engineering/departments/computing/industry/industrial-liaison/terms/">Terms of reference</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/industry/aci/">Applications of Computing in Industry</a></li>
+<li><a href="/engineering/departments/computing/industry/sponsorship/">Prizes and sponsorship</a></li>
+<li><a href="/engineering/departments/computing/industry/consultancy/">Consultancy</a></li>
+<li><a href="/engineering/departments/computing/industry/collaborations/">Collaborations</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/outreach/">Outreach and Engagement</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/outreach/girls-in-computing/">Girls in Computing</a></li>
+<li><a href="/engineering/departments/computing/outreach/explain/">DoC Explains</a></li>
+<li><a href="/engineering/departments/computing/outreach/ethics/">Ethics in Computing</a></li>
+<li><a href="/engineering/departments/computing/outreach/codelab/">Coding for Children</a></li>
+<li><a href="/engineering/departments/computing/outreach/child/">Bring your child to work day</a></li>
+<li><a href="/engineering/departments/computing/outreach/outreach-news-and-events/">Outreach news and events</a></li>
+<li><a href="/engineering/departments/computing/outreach/public-lecture-series/">Public Lecture Series</a></li>
+<li><a href="/engineering/departments/computing/outreach/computing-in-schools/">Computing in Schools</a></li>
+<li><a href="/engineering/departments/computing/outreach/stem-club-training/">STEM Club Training</a></li>
+<li><a href="/engineering/departments/computing/outreach/beyond-the-classroom/">Beyond the Classroom</a></li>
+<li><a href="/engineering/departments/computing/outreach/this-is-engineering-/">This is Engineering </a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/csg/">CSG</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/csg/recent-changes/">Recent changes</a></li>
+<li><a href="/engineering/departments/computing/csg/new-users/">New users</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/csg/new-users/students/">Students</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/csg/new-users/students/regulations/">Lab regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/csg/new-users/staff-and-phds/">Staff and PhDs</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/csg/services/">Services</a></li>
+<li><a href="/engineering/departments/computing/csg/guides/">Guides</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/csg/guides/remote-access/">Remote Access</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/csg/facilities/">Facilities</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/csg/facilities/loans/">Loans</a></li>
+<li><a href="/engineering/departments/computing/csg/facilities/lab/">Lab</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/csg/facilities/lab/workstations/">Workstations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/csg/facilities/theatres/">Theatres</a></li>
+
+</ul>
+</li>
+<li><a href="https://otrs.doc.ic.ac.uk/" target="_blank">Help desk</a></li>
+<li><a href="/engineering/departments/computing/csg/policies/">Policies</a></li>
+<li><a href="/engineering/departments/computing/csg/activities/">Activities</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/csg/activities/csg-systems-activities/">CSG Systems Activities</a></li>
+<li><a href="/engineering/departments/computing/csg/activities/information-systems-activities/">Information Systems Activities</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li><li><a href="https://imperiallondon.sharepoint.com/sites/foe/doc/DoCStaff/SitePages/Home.aspx" target="_blank">Staff intranet</a></li><li><a href="/engineering/departments/computing/health-and-safety/">Health and safety</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/health-and-safety/qualified-first-aiders/">Qualified first aiders</a></li>
+<li><a href="/engineering/departments/computing/health-and-safety/training/">Training requirements</a></li>
+<li><a href="/engineering/departments/computing/health-and-safety/theft/">Theft</a></li>
+<li><a href="/engineering/departments/computing/health-and-safety/students-welcome-information/">Students Welcome Information</a></li>
+
+</ul>
+</li>
+<!-- end nav object : Level 3 link menu -->
+</ul>
+</nav>
+</section> 
+</div>
+</header>
+<div id="content-box">
+<div id="page">
+<div class="container content-template" id="content">
+<!-- nav object : Local alert getter -->
+
+<!-- end nav object : Local alert getter -->
+<div class="row top flow-opposite" id="main">
+<div class="col lg-9 wysiwyg" role="main" id="primary-content">
+<div class="col lg-12 page-heading">
+<div class="breadcrumbs">
+<!-- nav object : Breadcrumbs -->
+<ul><li><a href="/">Home</a></li><li><a href="/engineering/">Faculty of Engineering</a></li><li><a href="/engineering/departments/">Departments, institutes and centres</a></li><li><a href="/engineering/departments/computing/">Department of Computing</a></li><li><a href="/engineering/departments/computing/people/">People</a></li><li><a href="/engineering/departments/computing/people/academic-staff/">Academic staff</a></li></ul>
+<!-- end nav object : Breadcrumbs -->
+</div>
+<h1>Academic staff</h1>
+</div> <!-- end page-heading -->
+<!-- nav object : Banner bottom -->
+
+<!-- end nav object : Banner bottom -->
+<div class="module">
+<div class="row wysiwyg">
+
+<p></p>
+<h6>Staff are displayed alphabetically by last name. Click on their names to access professional web pages and contact them using the provided information.</h6>
+<h3>&nbsp;</h3>
+</div><!-- People list -->
+
+<h2 class="sr-only">All Academics</h2>
+
+
+      <ul class="people list">
+          
+          
+          <!-- navigation object : People list item retrieve -->
+<li>
+<h3 class="sr-only">Dr Dalal Alrajeh</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Alrajeh%2C-Dalal--tojpeg_1512126455848_x2.jpg" alt="Dr Dalal Alrajeh" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~da04/"><span class="person-name">Dr Dalal Alrajeh</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:dalal.alrajeh04@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 2421</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Formal methods, software engineering, artificial intelligence for constructing correct software and their applications (e.g., software for digital forensics).
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>557, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Wenjia Bai</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/wenjia-bai-aspect-4-3_1621256338063_x2.jpg" alt="Dr Wenjia Bai" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~wbai/"><span class="person-name">Dr Wenjia Bai</span></a>
+<span class="job-title">Lecturer in Artificial Intelligence in Medicine</span>
+<p class="contact"><a class="email" href="mailto:w.bai@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Medical Image Analysis and Understanding, Machine Learning.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span></span><span><span>Data Science Institute, William Penney Laboratory</span></span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Francesco Belardinelli</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Francesco-JPG--tojpeg_1541668992098_x2.jpg" alt="Francesco Belardinelli" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~fbelard/"><span class="person-name">Dr Francesco Belardinelli</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:francesco.belardinelli@imperial.ac.uk">Send email</a><span class="tel">020 75 94 8413</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+Logic and AI
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>572b,&nbsp;<span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Mario Berta</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Berta%2C-Mario--tojpeg_1511259652567_x2.jpg" alt="Dr Mario Berta" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://marioberta.info/"><span class="person-name">Dr Mario Berta</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:mberta@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8305</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+My research area is quantum information theory, with a focus on quantum Shannon theory and quantum cryptography.&nbsp;I am interested in connections to mathematical physics, most importantly through the fields of matrix analysis and (non-commutative) optimization theory.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>444A, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Michael Bronstein</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Bronstein%2C-Michael--tojpeg_1511259694838_x2.jpg" alt="Professor Michael Bronstein" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.cs.technion.ac.il/~mbron/"><span class="person-name">Prof. Michael Bronstein</span></a>
+<span class="job-title">Professor</span>
+<p class="contact"><a class="email" href="mailto:m.bronstein@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Geometry, Machine Learning, Computer Graphics and Shape Analysis, Computer Vision, Biometrics.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Cristian Cadar</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/cadar__s--tojpeg_1491825861878_x2.jpg" alt="Dr Cristian Cadar" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~cristic/"><span class="person-name">Dr Cristian Cadar</span></a>
+<span class="job-title">Professor in Software Reliability</span>
+<p class="contact"><a class="email" href="mailto:c.cadar@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8244</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Software Engineering, Computer Systems and Software Security, with a focus on building practical techniques for improving the reliability and security of software systems.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>435, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Giuliano Casale</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/GC--tojpeg_1558451774879_x2.jpg" alt="Dr Giuliano Casale" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/gcasale/"><span class="person-name">Dr Giuliano Casale</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:g.casale@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 2920</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Quality-of-service, Resource management, Cloud services, Software
+<br />
+ Architecture.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>432,<span>&nbsp;Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Ronnie Clark</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/ronnie-profile2-1607001655174-x1_1618833301713_x2.jpg" alt="Dr Ronnie Clark" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.imperial.ac.uk/people/ronald.clark"><span class="person-name">Dr Ronnie Clark</span></a>
+<span class="job-title">Imperial College Research Fellow</span>
+<p class="contact"><a class="email" href="mailto:ronald.clark@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+&nbsp;
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Antoine Cully</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Antoine--tojpeg_1541670945974_x2.jpg" alt="Antoine Cully" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<span class="person-name">Dr Antoine Cully</span>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:a.cully@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8204</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+Robotics and Artificial Intelligence: How to use learning algorithms to make robots more versatile, robust, and adaptive.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>354, ACEX building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Andrew Davison</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/ajd--tojpeg_1491573828743_x2.jpg" alt="Prof. Andrew Davison" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~ajd/index.html"><span class="person-name">Prof. Andrew Davison</span></a>
+<span class="job-title">Professor of Robot Vision</span>
+<p class="contact"><a class="email" href="mailto:a.davison@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8316</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Computer Vision, Robotics, SLAM (Simultaneous Localisation and Mapping), Augmented Reality.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>303<span>, William Penney Laboratory</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Yves-Alexandre de Montjoye</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Montjoye--tojpeg_1497866306140_x2.jpg" alt="Dr Yves-Alexandre de Montjoye" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://demontjoye.com/index.html"><span class="person-name">Dr Yves-Alexandre de Montjoye</span></a>
+<span class="job-title">Senior Lecturer in Data Science Institute</span>
+<p class="contact"><a class="email" href="mailto:demontjoye@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 0991</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Data Privacy, Machine Learning for biometric and behavioral identification, Infrastructure for the safe and anonymous use of data, Data Science for Good.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Data Science Institute, William Penney Laboratory</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Soteris Demetriou</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/demetriou_B%26W--tojpeg_1541688811816_x2.jpg" alt="Soteris" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<span class="person-name">Dr Soteris Demetriou</span>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:s.demetriou@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+Mobile Computing&nbsp;
+</p>
+
+
+<p>
+
+<span>
+Security and Privacy:&nbsp;
+</span>
+
+<span>
+Systems Security,&nbsp;
+</span>
+
+<span>
+Smartphone Security,&nbsp;
+</span>
+
+<span>
+IoT Security
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Room 364, ACE Extension</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Alastair Donaldson</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%283%29--tojpeg_1491818712736_x2.jpg" alt="Dr Alastair Donaldson" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/alastair.donaldson"><span class="person-name">Dr Alastair Donaldson</span></a>
+<span class="job-title">Professor</span>
+<p class="contact"><a class="email" href="mailto:alastair.donaldson@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8266</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Formal verification techniques for multicore software. Software performance optimization for multicore processors.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>422<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Sophia Drossopoulou</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%286%29--tojpeg_1491819965444_x2.jpg" alt="Prof. Sophia Drossopoulou" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://wp.doc.ic.ac.uk/sd/"><span class="person-name">Prof. Sophia Drossopoulou</span></a>
+<span class="job-title">Professor of Programming Languages</span>
+<p class="contact"><a class="email" href="mailto:s.drossopoulou@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8368</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Object Capability Policies, Concurrent Programming, Program Verification, Characterization of Program Evolution and&nbsp;Theorem Proving.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>559<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Naranker Dulay</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/nd1--tojpeg_1491826685639_x2.jpg" alt="Dr Naranker Dulay" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/nd/"><span class="person-name">Dr Naranker Dulay</span></a>
+<span class="job-title">Reader in Computing Science</span>
+<p class="contact"><a class="email" href="mailto:n.dulay@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8288</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Security, Pervasive-Mobile-Distributed Systems, Networking, Software Engineering, Systems and Network Management, and Applied Machine Learning.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>562<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Abbas Edalat</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/AE-photo--tojpeg_1491483005548_x2.jpg" alt="Prof. Abbas Edalat" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.doc.ic.ac.uk/~ae/"><span class="person-name">Prof. Abbas Edalat</span></a>
+<span class="job-title">Professor of Computer Science and Mathematics</span>
+<p class="contact"><a class="email" href="mailto:a.edalat@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8245</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Exact Computation in Differential and Integral Calculus, ODE's, Computational Geometry, Computation in Logical Form, &nbsp;Optimisation Theory, Game Theory, Computational Psychiatry, Attachment Based Psychotherapy.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>420<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Aldo Faisal</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage--tojpeg_1491483473672_x2.jpg" alt="Dr Aldo Faisal" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/a.faisal"><span class="person-name">Dr Aldo Faisal</span></a>
+<span class="job-title">Professor of AI & Neuroscience</span>
+<p class="contact"><a class="email" href="mailto:a.faisal@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 6373</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Neurotechnology, Biomedical Engineering, Machine Learning, Algorithmic Prediction of Human Behaviour.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>407A, Huxley Building <br />4.08, Royal School of Mines</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Tony Field</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/meBigHoleAdjusted--tojpeg_1491820535758_x2.jpg" alt="Dr Tony Field" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/ajf/"><span class="person-name">Dr Tony Field</span></a>
+<span class="job-title">Reader in Performance Engineering</span>
+<p class="contact"><a class="email" href="mailto:t.field@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8364</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Engineering for High-Performance, Virtual-time program execution (VTE), Functional programming, Individual-based models (IbMs).
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>354<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Antonio Filieri</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/bio-photo-large--tojpeg_1506596062098_x2.jpg" alt="Dr Antonio Filieri" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.antonio.filieri.name/"><span class="person-name">Dr Antonio Filieri</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:a.filieri@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 9478</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Exact and approximate methods for probabilistic software analysis and probabilistic programming, Control Theory for Software Engineering, and Runtime-efficient and incremental verification of quantitative and functional software properties.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>572<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Philippa Gardner</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%285%29--tojpeg_1491819615308_x2.jpg" alt="Prof. Philippa Gardner" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/p.gardner"><span class="person-name">Prof. Philippa Gardner</span></a>
+<span class="job-title">Professor of Theoretical Computer Science</span>
+<p class="contact"><a class="email" href="mailto:p.gardner@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8292</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+JavaScript, Concurrency and Resource Reasoning.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>453<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Arthur H C Gervais</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Gervais%2C-Arthur--tojpeg_1511259740136_x2.jpg" alt="Dr Arthur H C Gervais" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://arthurgervais.com/"><span class="person-name">Dr Arthur H C Gervais</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:a.gervais@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+My research focuses on the security, privacy and performance of blockchain technology. Because this technology is still in its infancy, I largely focus on understanding and quantifying the tension points and tradeoffs in terms of security, privacy and performance, with the goal to build a mainstream, scalable, open, and decentralized blockchain.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span class="room">354,&nbsp;</span><span class="building-and-campus">ACE Extension</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Abhijeet Ghosh</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/image006--tojpeg_1491573918160_x2.jpg" alt="Dr Abhijeet Ghosh" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~ghosh/"><span class="person-name">Dr Abhijeet Ghosh</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:abhijeet.ghosh@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8351</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Appearance Modeling, Computational Illumination and Photography for Graphics and Vision.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>376<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Ben Glocker</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/L-2038-253x300--tojpeg_1491573737384_x2.jpg" alt="Dr Ben Glocker" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/bglocker/"><span class="person-name">Dr Ben Glocker</span></a>
+<span class="job-title">Reader in Medical Image Computing</span>
+<p class="contact"><a class="email" href="mailto:b.glocker@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8334</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Biomedical Image Analysis and Computer Vision with a focus on semantic understanding of images using Machine Learning.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>377<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Yi-Ke Guo</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Guo%2C-Yi-Ke--tojpeg_1571932457598_x2.jpg" alt="Prof. Yi-Ke Guo" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/y.guo"><span class="person-name">Prof. Yi-Ke Guo</span></a>
+<span class="job-title">Director, Data Science Institute </span>
+<p class="contact"><a class="email" href="mailto:y.guo@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8182</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Knowledge Discovery, Data Mining and Large-Scale Data Management.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>211A, William Penney Laboratory</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Chris Hankin</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%284%29--tojpeg_1491818840660_x2.jpg" alt="Prof. Chris Hankin" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/c.hankin"><span class="person-name">Prof. Chris Hankin</span></a>
+<span class="job-title">Director, Institute for Security Science & Technology</span>
+<p class="contact"><a class="email" href="mailto:c.hankin@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 7619</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Security, Program Analysis and&nbsp; Programming Language Theory.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Sherfield Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Peter G Harrison</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Harrison%2C-Peter-G--tojpeg_1510917782716_x2.jpg" alt="Prof. Peter G Harrison" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/p.harrison"><span class="person-name">Prof. Peter G Harrison</span></a>
+<span class="job-title">Professor of Mathematical Modelling</span>
+<p class="contact"><a class="email" href="mailto:p.harrison@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8363</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+He has researched into stochastic performance modelling and algebraic program transformation for some thirty five years, visiting IBM Research Centers for two spells. &nbsp;He has written two books, had over 200 research papers published and chaired the Joint Sigmetrics/Performance conference at Imperial in 2012. The results of his research have been exploited extensively in industry, forming an integral part of Metron's Athene capacity planning tool.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>353, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Thomas Heinis</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/me-big---Copy--tojpeg_1491816348010_x2.jpg" alt="Dr Thomas Heinis" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/theinis/"><span class="person-name">Dr Thomas Heinis</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:t.heinis@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8276</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Scientific Data Management, Distributed Data Processing, Spatial Databases, Indexing.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>423<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Michael Huth</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Huth%2C-Michael-R-A--tojpeg_1572870389389_x2.jpg" alt="Prof. Michael Huth" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~mrh/"><span class="person-name">Prof. Michael Huth</span></a>
+<span class="job-title">Professor of Computer Science and Head of Department</span>
+<p class="contact"><a class="email" href="mailto:m.huth@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8355</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Trusted Computing, Access Control, Formal Methods, Insider Threats, Model-Driven Security, Risk Analysis.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>364<span>, ACE Extension</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Edward Johns</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/edward_johns_portrait--tojpeg_1572870041176_x2.jpg" alt="Edward Johns" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.imperial.ac.uk/people/e.johns "><span class="person-name">Dr Edward Johns</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:e.johns@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+
+<a href="https://www.robot-learning.uk/" style="font-size: 1.5rem; font-weight: normal;" target="_blank" title="Robot Learning link opens in a new window">
+Robot Learning
+</a>
+
+<span>
+, Robot Manipulation, Deep Learning, Reinforcement Learning, Computer Vision
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>365,&nbsp;ACEX Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Bernhard Kainz</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/newProfile_cropSmall--tojpeg_1479141100097_x1--tojpeg_1491834935486_x2.jpg" alt="Dr Bernard Kainz" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/b.kainz"><span class="person-name">Dr Bernhard Kainz</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:b.kainz@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8349</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Machine Learning, Visualisation, and Interactive Real-Time Image Processing, High-Performance Medical Data Analysis.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>372, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Paul Kelly</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/download-%281%29--tojpeg_1491819454620_x2.jpg" alt="Prof. Paul Kelly" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~phjk/"><span class="person-name">Prof. Paul Kelly</span></a>
+<span class="job-title">Professor of Software Technology</span>
+<p class="contact"><a class="email" href="mailto:p.kelly@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8332</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Languages, compilers, operating systems for parallel computing. Domain-specific tools and active libraries. Computer systems issues underlying performance. Software tools for portable parallel programming. Irregular and data-intensive applications. Applying a broad range of mathematical and theoretical ideas to computer systems problems. Performance evaluation, modelling and prediction. Caching, combining and randomisation in processors, multiprocessors, operating systems and wide-area networks and Language, linguistics, literature, literary theory.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span id="ot3">L3 (upstairs), William Penney Building <br />304, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. William Knottenbelt</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/download--tojpeg_1491816678790_x2.jpg" alt="Prof. William Knottenbelt" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~wjk/"><span class="person-name">Prof. William Knottenbelt</span></a>
+<span class="job-title">Professor of Applied Quantitative Analysis</span>
+<p class="contact"><a class="email" href="mailto:w.knottenbelt@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8331</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Application of mathematical modelling techniques to real life systems. modelling and optimisation in parallel queueing systems (especially split-merge and&nbsp;
+</span>
+
+<a href="http://en.wikipedia.org/wiki/Fork%E2%80%93join_queue">
+fork-join
+</a>
+
+<span>
+&nbsp;systems), modelling of storage systems, stochastic modelling of sport, stochastic modelling of healthcare systems, resource allocation and control in cloud-computing environments, numerical solution of (semi-)Markov models and specification techniques for SLA specification, compliance prediction and monitoring.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span id="ot6">363, ACE Extension</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Jeff Kramer</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/jk--tojpeg_1491828015138_x2.jpg" alt="Prof. Jeff Kramer" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/jk/"><span class="person-name">Prof. Jeff Kramer</span></a>
+<span class="job-title">Professor of Distributed Computing</span>
+<p class="contact"><a class="email" href="mailto:j.kramer@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8271</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Distributed Computing,&nbsp;Software Architectures,&nbsp;Behaviour Analysis,&nbsp;Software Evolution and Change, &nbsp;
+</span>
+
+<span>
+Adaptive Software Systems and&nbsp;Requirements Analysis.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>571<span>,&nbsp;</span><span id="ot3"><span id="ot5">Huxley Building</span></span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Kin Leung</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/image003--tojpeg_1491829183267_x2.jpg" alt="Prof. Kin Leung" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.commsp.ee.ic.ac.uk/~kkleung/"><span class="person-name">Prof. Kin Leung</span></a>
+<span class="job-title">Tanaka Chair in Internet Technology</span>
+<p class="contact"><a class="email" href="mailto:kin.leung@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 6238</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Affiliations</h4>
+
+<p>
+
+<span>
+Wireless Communications,&nbsp;Wireless Technologies,&nbsp;Communication Networks and&nbsp;Stochastic Modeling and Queueing Theory.&nbsp;
+</span>
+In&nbsp;Dept. of 
+<t4 sslink_id="1" type="sslink" />
+&nbsp;and Dept. of&nbsp;
+<a href="http://www.imperial.ac.uk/computing" title="Computing">
+Computing
+</a>
+.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>810a, Electrical Engineering</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Stefan Leutenegger</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/sleutene--tojpeg_1491834660862_x2.jpg" alt="Dr Stefan Leutenegger" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/sleutene/"><span class="person-name">Dr Stefan Leutenegger</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:s.leutenegger@imperial.ac.uk
+
+">Send email</a><span class="tel">+44 (0)20 7594 7123</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Autonomous robot navigation: Building scalable maps, multi sensor fusion, map semantics, novel camera systems, application of these to Unmanned Aerial Systems (UAS) and ground robots.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>360, ACE Extension</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Yingzhen Li</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/yingzhen-2019-square-1610707096692-x1_1618832775626_x2.jpg" alt="Dr Yingzhen Li" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.imperial.ac.uk/people/yingzhen.li"><span class="person-name">Dr Yingzhen Li</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:yingzhen.li@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Machine learning, Bayesian statistics, representation learning, generative models, robustness in learning, AI-assisted decision making.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Ben Livshits</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/portrait-dark-2016--tojpeg_1496831027211_x2.jpg" alt="Dr Ben Livshits" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~livshits/"><span class="person-name">Dr Ben Livshits</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:b.livshits@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Security, Privacy, Program Analysis, Compilers, Software Engineering and Crowdsourcing.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>569, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Alessio Lomuscio</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/alessio--tojpeg_1578925991297_x2.jpg" alt="Prof. Alessio Lomuscio" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.doc.ic.ac.uk/~alessio/"><span class="person-name">Prof. Alessio Lomuscio</span></a>
+<span class="job-title">Professor of Safe Artificial Intelligence</span>
+<p class="contact"><a class="email" href="mailto:a.lomuscio@imperial.ac.uk">Send email</a><span class="tel">+ 44 (0)20 7594 8414</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Logic-Based Specification and Verification of Autonomous Systems.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>504, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Wayne Luk</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Luk%2C-Wayne--tojpeg_1511260002756_x2.jpg" alt="Prof. Wayne Luk" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~wl/"><span class="person-name">Prof. Wayne Luk</span></a>
+<span class="job-title">Professor of Computer Engineering</span>
+<p class="contact"><a class="email" href="mailto:w.luk@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8313</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Hardware and Architecture, Reconfigurable Computing, Design Automation.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>434<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Emil Lupu</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%288%29--tojpeg_1491826311691_x2.jpg" alt="Prof. Emil Lupu" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/e.c.lupu"><span class="person-name">Prof. Emil Lupu</span></a>
+<span class="job-title">Professor of Computer Systems</span>
+<p class="contact"><a class="email" href="mailto:e.c.lupu@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8249</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Adaptive Systems and Security,&nbsp;&nbsp;Applied to: Personal Networks for Healthcare,&nbsp;Autonomous Vehicles,&nbsp;Wireless Sensor Networks,&nbsp;Mobile ad-hoc networks, &nbsp;moretraditional networked infrastructures, data quality and protection,&nbsp;Security for sensor based environments,&nbsp;Security Management and&nbsp;Authorisation Policies.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>564<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Sergio Maffeis</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/photo--tojpeg_1491819715229_x2.jpg" alt="Dr Sergio Maffeis" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~maffeis/"><span class="person-name">Dr Sergio Maffeis</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:sergio.maffeis@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8390</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Computer Security, Web Programming and Process Calculi.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>441<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Peter McBrien</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pjmv2--tojpeg_1491815751210_x2.jpg" alt="Dr Peter McBrien" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~pjm/"><span class="person-name">Dr Peter McBrien</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:p.mcbrien@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8202</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Data Integration, Information Systems Modelling and Distributed Databases
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>428, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Julie McCann</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/newseventsimages--tojpeg_1491828627419_x1.jpg" alt="Prof. Julie McCann" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://wp.doc.ic.ac.uk/aese/person/julie-a-mccann/"><span class="person-name">Prof. Julie McCann</span></a>
+<span class="job-title">Professor of Computer Systems</span>
+<p class="contact"><a class="email" href="mailto:jamm@imperial.ac.uk">Send email</a><span class="tel">+44 (0) 20 7594 8375</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Decentralised Algorithms, Protocols, Cross-Layered Solutions to Wireless Sensor Networks, Ubiquitous and Mobile computing and&nbsp;Autonomic Computing.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>258, ACE Extension</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Ruth Misener</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Miserner%2C-Ruth--tojpeg_1512145666811_x2.jpg" alt="Dr Ruth Misener" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/rmisener/"><span class="person-name">Dr Ruth Misener</span></a>
+<span class="job-title">Professor in Computational Optimisation</span>
+<p class="contact"><a class="email" href="mailto:r.misener@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8315</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Global Optimization, Mixed-Integer Nonlinear Optimization, Optimization Software, Bioprocess Optimization.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>379<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof Stephen Muggleton</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/stephen_muggleton_photo_in_2010--tojpeg_1491578056851_x2.jpg" alt="Prof Stephen Muggleton" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/shm/"><span class="person-name">Prof Stephen Muggleton</span></a>
+<span class="job-title">Professor of Machine Learning</span>
+<p class="contact"><a class="email" href="mailto:s.muggleton@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8307</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Inductive Logic Programming,&nbsp;Machine Learning Applications in Molecular Biology,&nbsp;Intelligent Adaptive Agents and&nbsp;Natural Language Learning.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>407B, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr. Dario Paccagnan</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/dp-squared_1600841028085_x2.jpg" alt="Dr. Dario Paccagnan" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~dp414/"><span class="person-name">Dr. Dario Paccagnan</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:d.paccagnan@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Game theory, control theory, mathematical programming, network optimization.&nbsp;
+</span>
+
+<span>
+Modeling, coordination and societal impact of multi-agent systems where&nbsp;
+</span>
+
+<span>
+self-interested agents take autonomous decisions. Applications in smart mobility and&nbsp;
+</span>
+
+<span>
+electricity markets.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Maja Pantic</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/maja-photo-2011_portrait--tojpeg_1491575699767_x2.jpg" alt="Prof. Maja Pantic" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://ibug.doc.ic.ac.uk/maja/"><span class="person-name">Prof. Maja Pantic</span></a>
+<span class="job-title">Professor of Affective & Behavioural Computing</span>
+<p class="contact"><a class="email" href="mailto:m.pantic@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8195</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Computer Vision and Machine Learning for Affective Computing.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>380<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Panos Parpas</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Panos-8--tojpeg_1491830101709_x2.jpg" alt="Dr Panos Parpas" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~pp500/"><span class="person-name">Dr Panos Parpas</span></a>
+<span class="job-title">Reader</span>
+<p class="contact"><a class="email" href="mailto:panos.parpas@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8366</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Development and analysis of algorithms for large scale optimisation problems. Exploiting the structure of large scale models arising in applications.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>357<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Iain Phillips</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%2810%29--tojpeg_1491830775757_x2.jpg" alt="Dr Iain Phillips" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~iccp/"><span class="person-name">Dr Iain Phillips</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:i.phillips@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8265</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Theory of concurrency, reversible computation.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>427<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Peter Pietzuch</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/PeterP_0--tojpeg_1491816139745_x2.jpg" alt="Prof. Peter Pietzuch" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~prp/"><span class="person-name">Prof. Peter Pietzuch</span></a>
+<span class="job-title">Professor in Computing</span>
+<p class="contact"><a class="email" href="mailto:prp@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8314</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Distributed Systems, Systems and Data Management and the&nbsp;Design and Engineering of Scalable, and Reliable and Secure Large-Scale Software Systems.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>442<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Holger Pirk</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Pirk%2C-Holger--tojpeg_1511260097957_x2.jpg" alt="Dr Holger Pirk" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~hlgr/"><span class="person-name">Dr Holger Pirk</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:pirk@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 3008</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+My research interests lie in analytical query processing on memory-resident data. In particular, I study storage schemes and processing models for modern hardware.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span class="room">431,&nbsp;</span><span class="building-and-campus">Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr. Azalea Raad</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Azalea-Raad--tojpeg_1569237152157_x2.jpg" alt="Dr. Azalea Raad" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.soundandcomplete.org/"><span class="person-name">Dr. Azalea Raad</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:azalea.raad06@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Programming Languages, Formal Methods, Verification, Non-Volatile Memory, Concurrency, Persistency, Semantics, Weak Memory Models, Transactional Memory, Program Logics, and Stateless Model Checking.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr. Marek Rei</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Rei_-Marek-3-%281%29_medium--tojpeg_1578925882468_x2.jpg" alt="Dr. Marek Rei" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<span class="person-name">Dr. Marek Rei</span>
+<span class="job-title">Lecturer in Machine Learning and NLP</span>
+<p class="contact"><a class="email" href="mailto:marek.rei@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Machine learning, natural language understanding, neural architectures, representation learning, compositional semantics, educational and healthcare applications.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>555, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Daniel Rueckert</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pwpimage-%2811%29--tojpeg_1491834313278_x2.jpg" alt="Prof. Daniel Rueckert" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/dr/"><span class="person-name">Prof. Daniel Rueckert</span></a>
+<span class="job-title">Professor of Visual Information Processing</span>
+<p class="contact"><a class="email" href="mailto:d.rueckert@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8333</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Image Acquisition and Analysis using Machine Learning, Medical Applications.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>568<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Alessandra Russo</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Ale1--tojpeg_1491572686922_x2.jpg" alt="Prof. Alessandra Russo" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/arusso/"><span class="person-name">Prof. Alessandra Russo</span></a>
+<span class="job-title">Professor in Applied Computational Logic</span>
+<p class="contact"><a class="email" href="mailto:a.russo@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8312</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Computational Logic, Logic-based Machine Learning, Probabilistic and Distributed Inference and their applications in cognitive systems and autonomous systems.&nbsp;
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>560<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Fariba Sadri</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Sadri%2C-Fariba--tojpeg_1511266513777_x2.jpg" alt="Dr Fariba Sadri" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~fs/"><span class="person-name">Dr Fariba Sadri</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:f.sadri@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8224</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Multi-Agent Systems, Reactive Systems, Intention Recognition, Abductive Logic Programming, Event Calculus and Deductive Databases.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>447<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Bjoern Schuller</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/image002--tojpeg_1491574241732_x1.jpg" alt="Dr Bjoern Schuller" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~bschulle/"><span class="person-name">Dr Bjoern Schuller</span></a>
+<span class="job-title">Professor in Machine Learning</span>
+<p class="contact"><a class="email" href="mailto:bjoern.schuller@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8357</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Machine Learning, Audiovisual Signal Processing, Human-Computer/Robot-Interaction and Affective Computing.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>574<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Murray Shanahan</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Shanahan-portrait-2015--tojpeg_1572870754081_x2.jpg" alt="Prof. Murray Shanahan" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~mpsha/index.html"><span class="person-name">Prof. Murray Shanahan</span></a>
+<span class="job-title">Professor in Cognitive Robotics</span>
+<p class="contact"><a class="email" href="mailto:m.shanahan@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8262</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Neurodynamics, &nbsp;Consciousness, Cognitive Robotics, &nbsp;Reinforcement Learning, General Artificial Intelligence, the Frame Problem and &nbsp;the Technological Singularity.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>378<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Morris Sloman</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/morris--tojpeg_1491828935100_x2.jpg" alt="Prof. Morris Sloman" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/mss/"><span class="person-name">Prof. Morris Sloman</span></a>
+<span class="job-title">Professor of Distributed Systems Management</span>
+<p class="contact"><a class="email" href="mailto:m.sloman@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8279</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Pervasive systems, adaptive distributed systems, and policy-based management.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>575<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Lucia Specia</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/LuciaSpecia_Uni-min--tojpeg_1541602279209_x2.jpg" alt="lucia specia" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<span class="person-name">Prof. Lucia Specia</span>
+<span class="job-title">Professor </span>
+<p class="contact"><a class="email" href="mailto:l.specia@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+Multimodal language processing,&nbsp;Machine translation,&nbsp;Quality evaluation and estimation of machine translation, other NLP applications,&nbsp;Text adaptation especially text simplification
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>572a, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Francesca Toni</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/ftoni--tojpeg_1491575256192_x2.jpg" alt="Prof. Francesca Toni" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~ft/"><span class="person-name">Prof. Francesca Toni</span></a>
+<span class="job-title">Professor in Computational Logic</span>
+<p class="contact"><a class="email" href="mailto:f.toni@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8228</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Knowledge Representation and Reasoning: Argumentation, &nbsp;Abduction, &nbsp;Non-monotonic and Default Reasoning, Multi-Agent Systems. Argument Mining.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>430<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Calvin Tsay</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/tsay-headshot-2020-1598647128633-x1_1618833638168_x2.jpg" alt="Dr Calvin Tsay" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.imperial.ac.uk/people/c.tsay"><span class="person-name">Dr Calvin Tsay</span></a>
+<span class="job-title">EPSRC Research Fellow and Imperial College Research Fellow</span>
+<p class="contact"><a class="email" href="mailto:c.tsay@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Daphne Tuncer</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/picture--tojpeg_1542101224530_x2.jpg" alt="Daphne" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<span class="person-name">Dr Daphne Tuncer</span>
+<span class="job-title">Research Fellow</span>
+<p class="contact"><a class="email" href="mailto:d.tuncer@imperial.ac.uk">Send email</a><span class="tel">020 7594 8253</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research Interest </h4>
+
+<p>
+My research interests are in the areas of network resource management, software-based and programmable networks, network monitoring.
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Room 452, Huxley Building</span><span></span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof Iddo Tzameret</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/20201205-e_1631527368775_x2.jpg" alt="Prof Iddo Tzameret" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~itzamere/"><span class="person-name">Prof Iddo Tzameret</span></a>
+<span class="job-title">Chair in Computational Complexity</span>
+<p class="contact"><a class="email" href="mailto:i.tzameret@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Algorithms and Complexity: Limits of efficient algorithms and inference, Lower bounds on concrete computational models, Satisfiability, Proof complexity, Combinatorial, algebraic and logical approaches in complexity, Theory of SAT- and constraint-solving.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Sebastian Uchitel</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/foto_sebas_ch--tojpeg_1491828194934_x2.jpg" alt="Dr Sebastian Uchitel" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://wp.doc.ic.ac.uk/su2/"><span class="person-name">Dr Sebastian Uchitel</span></a>
+<span class="job-title">Reader in Software Engineering</span>
+<p class="contact"><a class="email" href="mailto:s.uchitel@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8269</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Software Engineering, Modelling and Analysis as a means to gain confidence in requirements, design and code artefacts, Partial Behaviour Models, Scenario-Based Specifications, Verification of Probabilistic Systems, Controller Synthesis, Machine Learning for Automated Diagnosis, Automatic Abstraction for Validation, and Adaptive Systems.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>575<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Steffen van Bakel</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/portrait-%281%29--tojpeg_1491830551297_x2.jpg" alt="Dr Steffen van Bakel" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~svb/"><span class="person-name">Dr Steffen van Bakel</span></a>
+<span class="job-title">Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:s.van.bakel@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8263</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Functional Programming:Lambda Calculus, Term Rewriting Systems, Term Graph Rewriting Systems, Mobile Ambients, Systems Biology, Type systems: Sequent Calculus for Classical Logic, Curry Howard Isomorphism,Intersection type assignment, Polymorphic type assignment, Decidable systems, Type theory and theorem provers, Semantics: Filter models, Approximation models, Game theory and Abstract interpretation.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>425, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Mark van der Wilk</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/pp--tojpeg_1587564885616_x2.jpg" alt="Mark Van der Wilk" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://markvdw.github.io/"><span class="person-name">Dr Mark van der Wilk</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:m.vdwilk@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Uncertainty in Machine Learning, Automatic Model Selection, Bayesian Inference, Reinforcement Learning, Bayesian Deep Learning, Generalisation
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p><span>Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr. Lluis Vilanova</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/sense-titol_1610104372687_x2.jpg" alt="Dr. Lluis Vilanova" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~lvilanov/"><span class="person-name">Dr. Lluis Vilanova</span></a>
+<span class="job-title">Lecturer</span>
+<p class="contact"><a class="email" href="mailto:vilanova@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Computer architecture; operating systems and runtimes; resource and&nbsp;
+</span>
+
+<span>
+device virtualization; hardware/software interfaces and co-design;&nbsp;
+</span>
+
+<span>
+resource management in heterogeneous and parallel systems; security&nbsp;
+</span>
+
+<span>
+and privacy.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Herbert Wiklicky</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/herbert--tojpeg_1491818987912_x2.jpg" alt="Dr Herbert Wiklicky" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.doc.ic.ac.uk/~herbert/"><span class="person-name">Dr Herbert Wiklicky</span></a>
+<span class="job-title">Reader in Computer Science</span>
+<p class="contact"><a class="email" href="mailto:h.wiklicky@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8206</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Program Analysis, semantics of programming languages, Probabilistic Models, Program Synthesis, semantics in Computer Security and Quantum Computation.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>424<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr. Nicolas Wu</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/Nwu--tojpeg_1564410762128_x2.jpg" alt="Dr. Nicolas Wu" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://www.imperial.ac.uk/people/n.wu"><span class="person-name">Dr. Nicolas Wu</span></a>
+<span class="job-title">PhD Senior Tutor and Senior Lecturer</span>
+<p class="contact"><a class="email" href="mailto:n.wu@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8189</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Programming Languages, Functional Programming, Category Theory
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>374, Huxley Building</p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Prof. Nobuko Yoshida</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/getPhoto--tojpeg_1517929122959_x1.jpg" alt="Prof. Nobuko Yoshida" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://mrg.doc.ic.ac.uk/people/nobuko-yoshida/"><span class="person-name">Prof. Nobuko Yoshida</span></a>
+<span class="job-title">Professor of Computing</span>
+<p class="contact"><a class="email" href="mailto:n.yoshida@imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8240</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Theoretical Computer Science.
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>556<span>, Huxley Building</span></p>
+</div>
+</li>
+
+<li>
+<h3 class="sr-only">Dr Stefanos Zafeiriou</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/szafeiriou--tojpeg_1491577918169_x2.jpg" alt="Dr Stefanos Zafeiriou" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="https://wp.doc.ic.ac.uk/szafeiri/"><span class="person-name">Dr Stefanos Zafeiriou</span></a>
+<span class="job-title">Professor</span>
+<p class="contact"><a class="email" href="mailto:s.zafeiriou at imperial.ac.uk">Send email</a><span class="tel">+44 (0)20 7594 8461</span></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+Statistical machine learning with Applications in Computer Vision and Image/Signal analysis.&nbsp;
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>375<span>, Huxley Building</span></p>
+</div>
+</li>
+
+          
+          
+          
+          
+        </ul>
+          
+
+<!-- end People list -->
+
+<div class="row wysiwyg">
+
+<h3>&nbsp;</h3>
+<p>Please mail all corrections and queries to <a href="mailto:doc-webmaster@imperial.ac.uk" target="_blank" title="doc-webmaster@imperial.ac.uk link opens in a new window">doc-webmaster@imperial.ac.uk</a><a href="mailto:webmaster@doc.ic.ac.uk" target="_blank" title="webmaster@doc.ic.ac.uk link opens in a new window"><br /></a></p>
+</div><!-- People list -->
+
+<h2 class="fake-h3 not-sr-only">Professor of Practice</h2>
+
+
+      <ul class="people list">
+          
+          
+          <!-- navigation object : People list item retrieve -->
+<li>
+<h3 class="sr-only">Prof. Pantelis J Beaghton</h3>
+<div class="person-wrapper">
+<img src="/ImageCropToolT4/imageTool/uploaded-images/PJ-headshot-cropped--tojpeg_1572869877899_x2.jpg" alt="Prof. Pantelis J Beaghton" class="thumbnail">
+</div>
+<div class="name-wrapper">
+<h4>Personal details</h4>
+<a class="name-link" target="_blank" href="http://www.imperial.ac.uk/people/p.beaghton"><span class="person-name">Prof. Pantelis J Beaghton</span></a>
+<span class="job-title">Professor of Practice</span>
+<p class="contact"><a class="email" href="mailto:p.beaghton@imperial.ac.uk">Send email</a></p>
+</div>
+<div class="dept-wrapper">
+<h4>Research interests</h4>
+
+<p>
+
+<span>
+Associate Director&nbsp;
+</span>
+
+<span>
+Institute for Security Science and Technology
+</span>
+
+</p>
+</div>
+<div class="address-wrapper">
+<h4>Location</h4>
+<p>Room E257, 2nd Floor, ACE Extension</p>
+</div>
+</li>
+
+          
+          
+          
+          
+        </ul>
+          
+
+<!-- end People list -->
+
+</div>
+</div>
+<aside class="col lg-3 sidebar" id="secondary-content">
+<!-- begin Sidebar nav -->
+<div class="col lg-12 sidebar-menu">
+<h2>People</h2>
+<!-- begin Level 4 menu - recurses -->
+<div class="module">
+<ul class="primary" id="secondary-nav"><li><span class="currentbranch0"><a href="/engineering/departments/computing/people/academic-staff/">Academic staff</a></span>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/people/academic-staff/new-staff/">Welcome to new academics</a></li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/people/teaching-fellows/">Teaching fellows</a></li><li><a href="/engineering/departments/computing/people/research/">Research staff</a></li><li><a href="/engineering/departments/computing/people/administrative-staff/">Administrative staff</a></li><li><a href="/engineering/departments/computing/people/csg/">CSG</a>
+<ul class="multilevel-linkul-0">
+<li><a href="/engineering/departments/computing/people/csg/recent-changes/">Recent changes</a></li>
+<li><a href="/engineering/departments/computing/people/csg/new-users/">New users</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/csg/new-users/students/">Students</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/new-users/students/regulations/">Lab regulations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/new-users/staff-and-phds/">Staff and PhDs</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/services/">Services</a></li>
+<li><a href="/engineering/departments/computing/people/csg/guides/">Guides</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/csg/guides/remote-access/">Remote Access</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/">Facilities</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/csg/facilities/loans/">Loans</a></li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/lab/">Lab</a>
+<ul class="multilevel-linkul-2">
+<li><a href="/engineering/departments/computing/people/csg/facilities/lab/workstations/">Workstations</a></li>
+
+</ul>
+</li>
+<li><a href="/engineering/departments/computing/people/csg/facilities/theatres/">Theatres</a></li>
+
+</ul>
+</li>
+<li><a href="https://otrs.doc.ic.ac.uk/" target="_blank">Help desk</a></li>
+<li><a href="/engineering/departments/computing/people/csg/policies/">Policies</a></li>
+<li><a href="/engineering/departments/computing/people/csg/activities/">Activities</a>
+<ul class="multilevel-linkul-1">
+<li><a href="/engineering/departments/computing/people/csg/activities/csg-systems-activities/">CSG Systems Activities</a></li>
+<li><a href="/engineering/departments/computing/people/csg/activities/information-systems-activities/">Information Systems Activities</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li><li><a href="/engineering/departments/computing/people/honorary-staff/">Honorary staff</a></li><li><a href="/engineering/departments/computing/people/emeritus-staff/">Emeritus staff</a></li><li><a href="/engineering/departments/computing/people/deepmind-scholars/">DeepMind scholarships</a></li><li><a href="/engineering/departments/computing/people/alumnus/">Alumnus</a></li></ul>
+</div>
+<!-- end Level 4 menu - recurses -->
+</div>
+<!-- end Sidebar nav -->
+<div class="col lg-12 link-list ">
+  <div class="module">
+    
+    <h2>Useful contacts</h2>
+    <ul>
+      
+        <li>
+          
+          <a href='https://www.doc.ic.ac.uk/~mrh/' target='blank'>
+          
+            Head of Department
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          
+          <a href='http://www.imperial.ac.uk/people/prp' target='blank'>
+          
+            Director of Research
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          
+          <a href='http://www.imperial.ac.uk/people/t.field' target='blank'>
+          
+            Director of Undergraduate Studies
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          
+          <a href='http://wp.doc.ic.ac.uk/arusso/' target='blank'>
+          
+            Director of Postgraduate Studies
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          
+          <a href='mailto:a.oneill@imperial.ac.uk' target='blank'>
+          
+            Department Operations Manager
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          
+          <a href='https://www.doc.ic.ac.uk/~fs/' target='blank'>
+          
+            Director of MSc Studies
+          
+          </a>
+          
+        </li>
+
+      
+        <li>
+          <a href='/engineering/departments/computing/prospective-students/'>
+          
+          
+            For admissions enquiries see 'Prospective students'
+          </a>
+          
+          
+        </li>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    </ul>
+  </div>
+</div><!-- Twitter feed -->
+<div class="col lg-12 twitter">
+    <h2 class="fake-h3">@ICComputing</h2>
+    <a class="twitter-timeline" href="https://twitter.com/ICComputing" data-height="400" height="400" data-theme="light" data-link-color="#2B7BB9" data-lang="en" data-dnt="true">Tweets by ICComputing</a>
+</div>
+<!-- end Twitter feed -->
+<!-- Flexible News & Events block - sidebar -->
+<div class="col lg-12 news">
+    <div class="module">
+        <a href="/engineering/departments/computing/about/news/">
+            
+            <ul class="tags">
+                <li class="parent topic not-reverse">
+                    <span>News</span>
+                </li>
+                <li class="feature topic teal"><span>Events</span></li>
+            </ul>
+            <div class="content">
+                <h3 class="title">News and events</h3>
+                <p class="description">Click here to discover what we've been up to and how you can get involved.</p>
+            </div>
+        </a>
+    </div>
+</div>
+<!-- end Flexible News & Events block - sidebar --><!-- shared sidebar -->
+<!-- navigation object : Sidebar -->
+</aside>
+</div><!-- row opposite -->
+</div><!-- end container -->
+<!-- Social -->
+            <div class="social cf container">
+  <a href="javascript:window.print();" class="share-link share-print">Print</a>
+  <a target="_blank" class="share-link share-mail" href="mailto:?subject=Imperial+College+London&body=https://www.imperial.ac.uk/engineering/departments/computing/people/academic-staff/">Email</a></div>
+
+        <!-- end Social -->
+</div><!-- end page -->
+<footer class="footer">
+<div class="container">
+<h1 class="sr-only">Contact &amp; Links</h1>
+ 
+<!-- navigation object : Local Footer --><section class="sub-footer row"><h2 class="sr-only">Section Information</h2><div class="col lg-3 md-3 sm-6"><div class="address" itemscope itemtype="http://schema.org/PostalAddress"><span>Faculty of Engineering</span><h3 class="title" itemprop="name">Department of Computing</h3><p>Imperial College London<br />South Kensington Campus<br />London SW7 2AZ</p><a href="https://goo.gl/maps/b75oKUXoByt" class="location-link">Map</a></div></div><div class="col lg-3 md-3 sm-6"><nav><h3 class="fake-h4">Get in touch</h3><ul><li><a href="/engineering/departments/computing/about/useful-contacts/">Useful contacts</a></li><li><a href="mailto:ugadmissions@doc.ic.ac.uk" target="_blank">UG admissions enquiries</a></li><li><a href="mailto:doc-mscadmissions@imperial.ac.uk" target="_blank">MSc admissions enquiries</a></li><li><a href="mailto:a.o.el-kholy@imperial.ac.uk" target="_blank">PhD admissions enquiries</a></li></ul></nav></div><div class="col lg-3 md-3 sm-6"><nav><h3 class="fake-h4">Quick links</h3><ul><li><a href="/engineering/departments/computing/about/job-vacancies/">Job opportunities</a></li><li><a href="/engineering/departments/computing/prospective-students/careers/cpp/">Recruit our students</a></li><li><a href="/engineering/departments/computing/outreach/">Outreach</a></li><li><a href="/engineering/departments/computing/people/csg/">Computing Support Group (CSG)</a></li></ul></nav></div><div class="col lg-3 md-3 sm-6"><div class="footer-social"><h3 class="fake-h4">Follow</h3><a href="https://twitter.com/ICComputing" class="twitter">Twitter</a><a href="https://www.linkedin.com/company/69234403/admin/" class="linkedin">Linked in</a></div></div></section>
+<!-- navigation object : Comment Start --><!-- navigation object : Global Footer pre direct edit --><!-- begin Global footer -->
+<section class="footer-links row equal-height-columns">
+    <h2 class="sr-only">Useful Links</h2>
+    <div class="col lg-2 md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Information for
+            </h3>
+            <ul>
+<li><a href="/study/">Prospective students</a></li>
+<li><a href="/alumni/">Alumni</a></li>
+<li><a href="/jobs/">Jobs</a></li>
+<li><a href="/research-and-innovation/support-for-partners/">Partners and business</a></li>
+<li><a href="/media/">Media</a></li>
+<li><a href="/giving/">Donors</a></li>
+<li><a href="/parents/">Parents</a></li>
+<li><a href="/admin-services/events-and-hospitality/">Conference organisers</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Top links
+            </h3>
+            <ul>
+<li><a href="/visit/">Visit Imperial</a></li>
+<li><a href="/about/imperial-and-the-european-union/">Imperial and the EU</a></li>
+<li><a href="https://www.imperial.ac.uk/office365" target="_blank">Outlook 365 web access</a></li>
+<li><a href="/admin-services/ict/contact-ict-service-desk/">Contact the ICT Service Desk</a></li>
+<li><a href="/admin-services/library/">Library</a></li>
+<li><a href="/admin-services/ict/self-service/teaching-learning/blackboard/">Blackboard</a></li>
+<li><a href="/admin-services/sport/">Move Imperial</a></li>
+<li><a href="/admin-services/registry/term-dates/">Term dates</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Students
+            </h3>
+            <ul>
+<li><a href="/students/">Imperial students</a></li>
+<li><a href="https://www.imperialcollegeunion.org/" target="_blank">Imperial College Union</a></li>
+<li><a href="/students/student-hub/">Student Hub</a></li>
+<li><a href="/admin-services/careers/">Careers Service</a></li>
+<li><a href="/students/online-services/mobile/">Imperial Mobile</a></li>
+<li><a href="/students/graduation/">Graduation</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Staff
+            </h3>
+            <ul>
+<li><a href="/staff/">Staff main page</a></li>
+<li><a href="/admin-services/ict/self-service/admin-systems/icis/">ICIS</a></li>
+<li><a href="/admin-services/human-resources/procedures/">HR Procedures</a></li>
+<li><a href="/admin-services/human-resources/pay-and-pensions/salaries/">Salaries</a></li>
+<li><a href="/admin-services/human-resources/pay-and-pensions/pensions/">Pension schemes</a></li>
+<li><a href="/research-and-innovation/support-for-staff/">Research support</a></li>
+<li><a href="/staff/new-staff/">Information for new staff</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                Imperial partners
+            </h3>
+            <ul>
+<li><a href="http://www.imperial.nhs.uk/" target="_blank">Imperial College Healthcare NHS Trust</a></li>
+<li><a href="http://www.ahsc.org.uk/" target="_blank">Imperial College Academic Health Science Centre</a></li>
+<li><a href="http://imperialcollegehealthpartners.com/" target="_blank">Imperial College Health Partners</a></li>
+<li><a href="http://www.imperial-consultants.co.uk/" target="_blank">Imperial Consultants</a></li>
+</ul>
+        </nav>
+    </div>
+    <div class="col lg-2  md-4 sm-6 equal-height">
+        <nav>
+            <h3 class="fake-h2 title">
+                A-Z
+            </h3>
+            <ul>
+<li><a href="/faculties-and-departments/">Faculties, departments and institutes</a></li>
+<li><a href="/a-z-research/">Research groups</a></li>
+<li><a href="/admin-services/">Administration and support services</a></li>
+<li><a href="http://www.imperial.ac.uk/collegedirectory/" target="_blank">People finder</a></li>
+</ul>
+        </nav>
+    </div>
+</section>
+<!-- Footer Links End -->
+<section class="footer-common row" itemscope itemtype="http://schema.org/CollegeOrUniversity">
+    <h2 class="sr-only">College Information</h2>
+    <div class="col lg-2 md-3 sm-12" id="footer-contact">
+        <a href="#" class="footer-brand">
+          <span itemprop="name">Imperial College London</span>
+        </a>
+        <meta itemprop="url" content="https://www.imperial.ac.uk/">
+        <meta itemprop="image" content="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/homepage-default-social--tojpeg_1523872141375_x1.jpg">
+        <meta itemprop="logo" content="https://www.imperial.ac.uk/assets/website/images/logo/imperial-600.png">
+        <meta itemprop="sameAs" content="https://en.wikipedia.org/wiki/Imperial_College_London">
+        <h3 class="sr-only">Address</h3>
+        <div class="address">
+            <p itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+                <span itemprop="name">South Kensington Campus</span><br /><span itemprop="addressLocality">London</span> <span itemprop="postalCode">SW7 2AZ</span>, <span itemprop="addressCountry">UK</span><br /><span itemprop="telephone">tel: +44 (0)20 7589 5111</span>
+                <br />
+                <a href="/visit/campuses/"
+                class="location-link">
+                Campuses &amp; maps
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="col lg-10 md-9 sm-12" id="footer-connect">
+        <h3 class="title">Follow Imperial</h3>
+        <div class="footer-social sm-10">
+            <a href="https://www.facebook.com/imperialcollegelondon" class="facebook" target="_blank" itemprop="sameAs">Facebook</a>
+            <a href="https://twitter.com/imperialcollege" class="twitter" target="_blank" itemprop="sameAs">Twitter</a>
+            <a href="https://www.youtube.com/user/imperialcollegevideo" class="youtube" target="_blank" itemprop="sameAs">You Tube</a>
+            <a href="https://www.linkedin.com/edu/imperial-college-london-12598" class="linkedin" target="_blank" itemprop="sameAs">Linked in</a>
+            <a href="https://instagram.com/imperialcollege" class="instagram" target="_blank" itemprop="sameAs">Instagram</a>
+            <a href="https://www.weibo.com/ImperialUK" class="weibo" target="_blank" itemprop="sameAs">Weibo</a>
+            
+        </div>
+
+    <nav id="footer-info">
+        <h3 class="sr-only">Site Information</h3>
+        <ul>
+            
+        <li>
+    <a href="/sitemap/" >Sitemap</a>
+   </li>
+  
+            
+        <li>
+    <a href="/about-the-site/accessibility/" >Accessibility</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/admin-services/finance/purchasing/related-policy-statements/modern-slavery/" >Modern slavery statement</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/about-the-site/privacy/" >Privacy notice</a>
+   </li>
+  
+
+            
+        <li>
+    <a href="/about-the-site/use-of-cookies/" >Use of cookies</a>
+   </li>
+  
+
+    
+    <li>
+    <a href="/error/report/" >Report incorrect content</a>
+    </li>
+    
+            <li class="copyright">
+                <span>&copy;
+                    2021                    Imperial College London
+                </span>
+            </li>
+            <li class="hide-sm">
+<a class="t4Edit-page" href="https://www.imperial.ac.uk/terminalfour/SiteManager?ctfn=content&amp;fnno=30&amp;sid=114153">Log in</a>
+<!-- navigation object : Global Footer post direct edit -->                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </section>
+          </div>
+        <!-- end Global footer -->
+      </footer>
+
+    </div><!--/#content-box -->
+  </body>
+</html>
