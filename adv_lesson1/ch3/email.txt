@@ -1,0 +1,17 @@
+MIME-Version: 1.0
+Date: Wed, 21 Oct 2020 11:02:52 +0100
+Message-ID: <AdJIE+ww21321@xx.yy.com>
+Subject: Hello Pythonistas
+From: The Boss <the.boss@abc.ac.uk>
+To: "Don Garrett" <don.garrett@food.bz>, "Daryl Sears" <daryl.sears@defg.com>, "Szymon Walmsley" <szymon.walmsley@ijk.ac.uk>, "Frances Hurst" <frances.hurst@silly.org>, "Teegan Moses" <teegan.moses@silly.org>, "Klay Prentice" <klay.prentice@abc.ac.uk>, "Campbell Bowden" <campbell.bowden@pretty.edu>, "Karan Cuevas" <karan.cuevas@pretty.edu>, "Heidi Gardner" <heidi.gardner@somewhere.co.uk>, "Phoenix Mcclain" <phoenix.mcclain@abc.ac.uk>, "Bertha Connor" <bertha.connor@something.info>, "Kimberly Poole" <kimberly.poole@email.net>, "Jamil Munro" <jamil.munro@silly.org>, "Anton Britton" <anton.britton@silly.org>, "Tasha Harvey" <tasha.harvey@bba.com>, "Alexie Cantu" <alexie.cantu@ijk.ac.uk>, "Philip Chung" <philip.chung@pretty.edu>, "Kaisha Pearson" <kaisha.pearson@food.bz>, "Malika Huber" <malika.huber@bba.com>, "Jayce Aguilar" <jayce.aguilar@abc.ac.uk>
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Pythonistas,
+
+Welcome to our class! I hope you enjoy this task!
+
+Best wishes,
+The Boss
+
+-- 
+The Boss does not need a signature. 
