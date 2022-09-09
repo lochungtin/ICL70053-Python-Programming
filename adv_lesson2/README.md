@@ -1,4 +1,4 @@
-# Lesson 2 - More Python OOP
+# Lesson 2 - Advanced Object-Oriented Programming
 
 ## Ch2 Polymorphism
 
