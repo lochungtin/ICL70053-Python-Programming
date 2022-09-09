@@ -1,4 +1,4 @@
-# Lesson 1 - Regex
+# Lesson 1 - Regular Expressions
 
 ## Ch2-3 Regex Basics
 
