@@ -27,3 +27,5 @@
 - [Lesson 2](nsp_lesson2/) - Introduction to Pandas
 
 ## Machine Learning Packages (mlp)
+
+- Lessons to be released mid to late September
