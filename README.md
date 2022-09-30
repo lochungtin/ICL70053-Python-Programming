@@ -28,4 +28,5 @@
 
 ## Machine Learning Packages (mlp)
 
-- Lessons to be released mid to late September
+- [Lesson 1](mlp_lesson1/) - Introduction to Scikit-learn
+- [Lesson 2](mlp_lesson2/) - Introduction to Deep Learning with PyTorch
