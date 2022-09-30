@@ -10,6 +10,9 @@ y = dataset.target
 
 x_tr, x_ts, y_tr, y_ts = train_test_split(x, y, test_size=0.20, random_state=42)
 
+print(x_tr.shape)
+print(y_tr.shape)
+
 dt1 = DecisionTreeClassifier(criterion="entropy", random_state=10)
 dt1.fit(x_tr, y_tr)
 
