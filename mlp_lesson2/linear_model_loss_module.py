@@ -11,10 +11,13 @@ class ModelNumberQuestions(torch.nn.Module):
         return self.theta_1 * tensor_number_tasks + self.theta_0
 
 
-def compute_loss(list_number_tasks, list_number_questions, net):
-    estimates = net(list_number_tasks)
-    sqr_diff = (estimates - list_number_questions) ** 2
-    return sqr_diff.mean()
+class MSELoss(torch.nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+    def forward(self, estimates, actuals):
+        sqr_diff = (estimates - actuals) ** 2
+        return sqr_diff.mean()
 
 
 def train_parameters_linear_regression(
@@ -36,14 +39,16 @@ def train_parameters_linear_regression(
         trained network (ModelNumberQuestions)
     """
     net = ModelNumberQuestions()
+    mse = MSELoss()
 
     optimiser = torch.optim.SGD(net.parameters(), lr=learning_rate)
 
     for i in range(number_training_steps):
         optimiser.zero_grad()
 
-        mse_loss = compute_loss(list_number_tasks, list_number_questions, net)
-        mse_loss.backward()
+        estimates = net(list_number_tasks)
+        loss = mse(estimates, list_number_questions)
+        loss.backward()
 
         optimiser.step()
 
