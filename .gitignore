@@ -1,4 +1,4 @@
 icl_pp_env
-
+mlp_lesson2/data/MNIST/raw
 __pycache__
 *.pkl
