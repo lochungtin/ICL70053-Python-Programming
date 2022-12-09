@@ -1,4 +1,14 @@
-length = 9
+"""Pattern
+. . . . *
+. . . *
+. . *
+. *
+*
+. *
+. . *
+. . . *
+. . . . *
+"""
 
-for i in range(-4, 5):
-    print(". " * abs(i) + "*")
+r = 9
+[print(". " * abs(r // 2 - i) + "*") for i in range(r)]

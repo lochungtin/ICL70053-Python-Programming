@@ -1,0 +1,76 @@
+[
+    {
+        "id": "1000",
+        "name": "apple",
+        "price": 0.75,
+        "offer": {
+            "type": "bnf1",
+            "n": 3
+        }
+    },
+    {
+        "id": "2000",
+        "name": "banana",
+        "price": 1.0,
+        "offer": {
+            "type": "percent",
+            "n": 0.25
+        }
+    },
+    {
+        "id": "1200",
+        "name": "pear",
+        "price": 0.85
+    },
+    {
+        "id": "3000",
+        "name": "mango",
+        "price": 1.5,
+        "offer": {
+            "type": "bnf1",
+            "n": 4
+        }
+    },
+    {
+        "id": "4000",
+        "name": "orange",
+        "price": 0.5
+    },
+    {
+        "id": "3300",
+        "name": "pineapple",
+        "price": 1.25,
+        "offer": {
+            "type": "bnf1",
+            "n": 2
+        }
+    },
+    {
+        "id": "5000",
+        "name": "plum",
+        "price": 0.6
+    },
+    {
+        "id": "5400",
+        "name": "nectarine",
+        "price": 0.7,
+        "offer": {
+            "type": "percent",
+            "n": 0.1
+        }
+    },
+    {
+        "id": "6000",
+        "name": "kiwi",
+        "price": 1.0
+    },
+    {
+        "id": "3800",
+        "name": "papaya",
+        "price": 2.0,
+        "offer": {
+            "type": "bnf1",
+            "n": 1
+        }
+    }
+]
