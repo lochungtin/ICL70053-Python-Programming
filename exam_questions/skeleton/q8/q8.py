@@ -15,7 +15,6 @@ class Store:
     #                     offer = PercentageReductionOffer(item["offer"]["n"])
     #                 else:
     #                     offer = BuyNGet1FreeOffer(item["offer"]["n"])
-
     #             self.products[item["id"]] = Product(
     #                 item["id"], item["name"], item["price"], offer
     #             )

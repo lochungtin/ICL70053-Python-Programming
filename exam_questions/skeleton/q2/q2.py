@@ -3,7 +3,6 @@
 #     for word in string.split(" "):
 #         if "e" not in word:
 #             rt.append(word)
-
 #     return " ".join(rt)
 
 

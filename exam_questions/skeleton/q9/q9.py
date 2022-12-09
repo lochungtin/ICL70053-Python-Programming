@@ -4,18 +4,15 @@
 #         if num % n == 0:
 #             rt.append(n)
 #             rt.append(num // n)
-
 #     return sorted(list(set(rt)), reverse=True)
 
 
 # def simplify_fraction(numerator, denominator):
 #     nFact = factors(numerator)
 #     dFact = factors(denominator)
-
 #     for n in nFact:
 #         if n in dFact:
 #             return (numerator // n, denominator // n)
-
 #     return (numerator, denominator)
 
 

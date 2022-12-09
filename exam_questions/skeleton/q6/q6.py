@@ -7,19 +7,14 @@
 #                     count[word] = 1
 #                 else:
 #                     count[word] += 1
-
 #     return count
-
-
 # def most_frequent_common_word(filename1, filename2):
 #     f1 = freq(filename1)
 #     f2 = freq(filename2)
-
 #     avg = []
 #     for word, f1freq in f1.items():
 #         if word in f2:
 #             avg.append((word, (f1freq + f2[word]) / 2))
-
 #     return sorted(avg, key=lambda x: x[1], reverse=True)[0]
 
 

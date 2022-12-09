@@ -1,15 +1,12 @@
 # def count_repeats(word):
 #     counts = {}
-
 #     for letter in word:
 #         if letter not in counts:
 #             counts[letter] = 1
 #         else:
 #             counts[letter] += 1
-
 #     val = list(counts.values())
 #     num = val[0]
-
 #     return val[0] * all(map(lambda x: x == num, val))
 
 
