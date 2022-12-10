@@ -7,4 +7,4 @@
 
 def odd_even_swap(word):
     w, l = word, len(word) - 1
-    return "".join(w[i + 1] + w[i] for i in range(0, l, 2)) + ((l + 1) % 2) * word[l]
+    return "".join(w[i + 1] + w[i] for i in range(0, l, 2)) + (not l % 2) * word[l]
