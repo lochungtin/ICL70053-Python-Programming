@@ -22,7 +22,7 @@ def get_winner(board):
     l = len(board)
     s = [set(board[i][i] for i in range(l)), set(board[i][l - i - 1] for i in range(l))]
     s += [set(board[j][i] for j in range(l)) for i in range(l)]
-    s += [set(board[i][j] for j in range(l)) for i in range(l)]
+    s += [set(r) for r in board]
     for w in [list(r)[0] for r in s if len(r) == 1 and " " not in r]:
         return w
     if any(map(lambda x: x == " ", [c for r in board for c in r])):
