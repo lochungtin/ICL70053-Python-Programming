@@ -21,6 +21,6 @@
 def most_frequent_common_word(filename1, filename2):
     c = {}
     for f in (filename1, filename2):
-        for l in open("q6/" + f, "r").readlines():
+        for l in open("q6/" + f, "r"):
             [c.update({w: c.get(w, 0) + 0.5}) for w in l.strip().split(" ")]
     return sorted(c.items(), key=lambda x: x[1], reverse=True)[0]
