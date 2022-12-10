@@ -11,14 +11,9 @@ def odd_even_swap(word):
 ## Q2
 
 ```py
-from math import sqrt
-
 def closest_pair(coord_list):
-    s = set()
-    for i, a in enumerate(coord_list):
-        for b in map(lambda x: coord_list[x], range(i + 1, len(coord_list))):
-            s.add((sqrt(sum(map(lambda x: (x[0] - x[1]) ** 2, zip(a, b)))), a, b))
-    return list(map(lambda x: {x[1], x[2]}, [min(s, key=lambda x: x[0])]))[0]
+    d = [((a, b), zip(a, b)) for a in coord_list for b in coord_list if a != b]
+    return set(min(((sum(map(lambda x: (x[0] - x[1]) ** 2, q)), p)) for p, q in d)[1])
 ```
 
 ## Q3
