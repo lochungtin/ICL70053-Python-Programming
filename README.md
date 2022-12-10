@@ -16,7 +16,7 @@
 ## Exam (exam)
 
 -   [Extra Questions](exam_extra/) - Extra preparation questions from Scientia
--   [Mock Questions](exam_mock/) - Questions from mock exam
+-   [Exam Mock Questions](exam_mock/) - Questions from mock exam
 
 ## Advanced (adv)
 
